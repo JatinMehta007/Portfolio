@@ -5,10 +5,9 @@ export function TextHoverEffectDemo() {
   return (
     <div>
     
-    <div className="h-screen flex items-center justify-center  bg-black ">
+    <div className=" ">
       <TextHoverEffect text={"Welcome"} />
     </div>
-
     </div>
   );
 }

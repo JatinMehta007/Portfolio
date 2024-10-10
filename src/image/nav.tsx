@@ -2,8 +2,6 @@
 import React, { useState } from "react";
 import { Menu, MenuItem } from "../components/ui/navbar"; 
 import { cn } from "../lib/utils"; 
-import { Label } from "../components/ui/label";
-import { Input } from "../components/ui/input";
 
 export function NavbarDemo() {
   return (
