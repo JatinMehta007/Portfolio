@@ -6,7 +6,7 @@ export function TextHoverEffectDemo() {
     <div>
     
     <div className=" ">
-      <TextHoverEffect text={"Welcome"} />
+      <TextHoverEffect text={"WELCOME"} />
     </div>
     </div>
   );

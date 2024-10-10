@@ -28,7 +28,7 @@ export const TextHoverEffect = ({
       ref={svgRef}
       width="100%"
       height="100%"
-      viewBox="0 0 300 100"
+      viewBox="0 0 300 50"
       xmlns="http://www.w3.org/2000/svg"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
@@ -57,12 +57,7 @@ export const TextHoverEffect = ({
           gradientUnits="userSpaceOnUse"
           r="20%"
           animate={maskPosition}
-          // example for a smoother animation below
-          //   transition={{
-          //     type: "spring",
-          //     stiffness: 300,
-          //     damping: 50,
-          //   }}
+          
           transition={{ duration: duration ?? 0, ease: "easeOut" }}>
           <stop offset="0%" stopColor="white" />
           <stop offset="100%" stopColor="black" />
@@ -77,7 +72,7 @@ export const TextHoverEffect = ({
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.3"
-        className="font-[helvetica] font-bold stroke-neutral-800 dark:stroke-neutral-800 fill-transparent text-6xl  "
+        className="font-[helvetica] font-bold stroke-neutral-800 dark:stroke-neutral-800 fill-transparent text-5xl  "
         style={{ opacity: hovered ? 0.7 : 0 }}>
         {text}
       </text>
@@ -87,7 +82,7 @@ export const TextHoverEffect = ({
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.3"
-        className="font-[helvetica] font-bold fill-transparent text-6xl   stroke-neutral-800 dark:stroke-neutral-800"
+        className="font-[helvetica] font-bold fill-transparent text-5xl   stroke-neutral-800 dark:stroke-neutral-800"
         initial={{ strokeDashoffset: 1000, strokeDasharray: 1000 }}
         animate={{
           strokeDashoffset: 0,
@@ -107,7 +102,7 @@ export const TextHoverEffect = ({
         stroke="url(#textGradient)"
         strokeWidth="0.3"
         mask="url(#textMask)"
-        className="font-[helvetica] font-bold fill-transparent text-6xl  ">
+        className="font-[helvetica] font-bold fill-transparent text-5xl  ">
         {text}
       </text>
     </svg>)
