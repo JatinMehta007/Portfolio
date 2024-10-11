@@ -29,12 +29,18 @@ export const Grid=()=>{
             <div className="grid grid-cols-3  text-white gap-4 m-10 max-w-7xl  w-full">
                 
                 <div className="col-span-2 border-white  rounded-3xl h-[300px]" >
-                    <img src={icon3} alt="" className="rounded-3xl"/>
+                    <a href="https://victor--delta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <img src={icon3} alt="Victor" className="rounded-3xl"/>
+                    </a>
                 <div className=" col-span-2 mt-6  border-white  rounded-3xl h-[300px]" >
-                    <img src={icon1} alt="" className="rounded-3xl"/>
+                <a href="https://alabayjatinmehta-jatins-projects-a1a570d0.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <img src={icon1} alt="Alabay" className="rounded-3xl"/>
+                    </a>
                 </div>
                 <div className=" col-span-2 mt-32   border-white  rounded-3xl h-[300px]" >
-                    <img src={icon5} alt="" className="rounded-3xl"/>
+                <a href="https://jatinmehta007.github.io/IXIGO-TRAIN-APP-CLONE/" target="_blank" rel="noopener noreferrer">
+                    <img src={icon5} alt="Ixigo" className="rounded-3xl"/>
+                    </a>
                 </div>
                 <div className="mt-32">
                     <TypewriterEffectSmooth words={words}/>
@@ -42,9 +48,13 @@ export const Grid=()=>{
                 </div>
                 
                 <div className="border-white   rounded-3xl ">
-                <img src={icon4} alt="" className="rounded-3xl " />
+                <a href="https://victor--delta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <img src={icon4} alt="Victor" className="rounded-3xl " />
+                </a>
                 <div className="border-white  mt-4 rounded-3xl ">
-                <img src={icon2} alt="" className="rounded-3xl " />
+                <a href="https://alabayjatinmehta-jatins-projects-a1a570d0.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <img src={icon2} alt="Alabay" className="rounded-3xl " />
+                </a>
                 </div>
                 </div>
                 

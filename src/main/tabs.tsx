@@ -51,7 +51,6 @@ export const Tabs=()=>{
                     </div>
             </a>
 
-
                     <div className="col-span-1  bg-gradient-to-r from-black via-gray-900 rounded-3xl mt-20 h-80 hover:border-gray-700 hover:border border-transparent">
                     <div className="h-2"></div>
                     <a href="
