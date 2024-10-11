@@ -12,7 +12,7 @@ export const Nav=()=>{
           </div>
 
           <div className="ml-auto">
-            <a href="https://github.com/JatinMehta007/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/JatinMehta007/Portfolio" target="_blank" rel="noopener noreferrer">
           <button>
             <img src={github} alt="" className="p-4 rounded-full transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700 border-gray-600 hover:border hover:border-gray-900" />
           </button>
