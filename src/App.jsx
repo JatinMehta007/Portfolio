@@ -7,7 +7,7 @@ import { Tabs } from "./main/tabs";
 
  function App() {
   return (
-    <div className="w-screen h-full bg-gradient-to-r from-gray-950 via-black to-gray-950">
+    <div className="w-screen h-full bg-gradient-to-r from-gray-900 via-black to-gray-950">
       <div>
       <Nav/>
       </div>
