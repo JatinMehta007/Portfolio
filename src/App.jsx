@@ -13,7 +13,7 @@ import { InfiniteMovingCardsDemo } from "./main/moving-stack";
       <Nav/>
       </div>
 
-        <div className="mt-40">
+        <div className="sm:mt-40 mt-28">
       <TextHoverEffectDemo/>
         </div>
       <div className="">
