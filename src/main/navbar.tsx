@@ -1,6 +1,7 @@
 import React from "react";
 import github from '../images/github.png';
-import linkdin from '../images/linkdin.png' 
+import linkdin from '../images/linkdin.png'; 
+import resume from '../images/resume.png'; 
 
 export const Nav=()=>{
      
@@ -25,6 +26,14 @@ export const Nav=()=>{
         </button>
         </a>
      </div>
+     <div>
+        <a href="images/resume.pdf" download target="_blank" rel="noopener noreferrer">
+        <button>    
+        <img src={resume} alt="" className="sm:p-4 h-7 w-7 mt-4 mr-2 sm:h-20 sm:w-20 sm:m-0 rounded-full transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700 sm:border-gray-600 sm:hover:border sm:hover:border-gray-900" />
+        </button>
+        </a>
+     </div>
+     
       </div>
  </div>
     )
