@@ -40,7 +40,8 @@ export const TextHoverEffect = ({
           gradientUnits="userSpaceOnUse"
           cx="50%"
           cy="50%"
-          r="25%">
+          r="25%"
+         >
           {hovered && (
             <>
               <stop offset="0%" stopColor={"var(--yellow-500)"} />
@@ -51,7 +52,6 @@ export const TextHoverEffect = ({
             </>
           )}
         </linearGradient>
-
         <motion.radialGradient
           id="revealMask"
           gradientUnits="userSpaceOnUse"
@@ -82,7 +82,7 @@ export const TextHoverEffect = ({
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.3"
-        className="font-[helvetica] font-bold fill-transparent text-5xl   stroke-neutral-800 dark:stroke-neutral-800"
+        className="font-[helvetica] font-bold fill-transparent text-5xl stroke-neutral-500  sm:stroke-neutral-800 dark:stroke-neutral-800"
         initial={{ strokeDashoffset: 1000, strokeDasharray: 1000 }}
         animate={{
           strokeDashoffset: 0,

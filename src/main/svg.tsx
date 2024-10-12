@@ -18,7 +18,6 @@ export function SVGMaskEffectDemo() {
 
         className=" border rounded-md  ">
             <span className="text-black sm:text-5xl text-3xl">
-
             "Hi, I'm Jatin Mehta — <span >a Full-Stack Developer</span> "
             </span>
       </MaskContainer>
