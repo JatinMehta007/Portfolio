@@ -19,6 +19,7 @@ export function InfiniteMovingCardsDemo() {
   return (
     <div
       className=" rounded-md flex flex-col mt-10 items-center justify-center relative overflow-hidden">
+        <p className=" tracking-wider uppercase font-bold text-gray-600 text-3xl ">My skills</p> 
       <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
     </div>
   );

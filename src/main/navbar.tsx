@@ -7,7 +7,7 @@ export const Nav=()=>{
      
     return (
       <div className=" flex items-center justify-center ">
-      <div className="fixed flex items-center justify-center top-0 h-14 w-96 md:w-[700px] lg:h-20 m-6   lg:w-[950px] border-transparent transition duration-1000 ease-in-out bg-gradient-to-r from-gray-900 via-black to-gray-900 rounded-3xl text-slate-200 hover:border hover:border-gray-700">
+      <div className="fixed flex items-center justify-center top-0 h-14 w-[90%] md:w-[80%] lg:h-20 m-6   lg:w-[70%] border-transparent transition duration-1000 ease-in-out bg-gradient-to-r from-gray-900 via-black to-gray-900 rounded-3xl text-slate-200 hover:border hover:border-gray-700">
 
           <div  className="lg:m-7 m-4 text-sm md:text-base lg:text-lg  uppercase text-slate-600  tracking-wider lg:font-medium">
           Jatin Mehta

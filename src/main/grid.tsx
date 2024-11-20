@@ -14,7 +14,7 @@ export const Grid=()=>{
     const words = [
         {
           text: "Project's",
-          className:"text-slate-600 md:text-7xl lg:text-9xl  text-4xl"
+          className:"text-slate-600 md:text-7xl lg:text-8xl xl:text-9xl  text-4xl"
         },
         {
             text: "link below",
@@ -26,26 +26,26 @@ export const Grid=()=>{
             <div className="uppercase md:text-5xl text-3xl font-bold md:m-20 m-10 text-center md:text-left text-slate-500 tracking-widest   relative   overflow-hidden">
                 selected work
             </div>
-            <div className="grid grid-cols-3  text-white  md:gap-4 lg:m-10 m-5 lg:max-w-7xl ">
+            <div className="grid grid-cols-3  text-white  md:gap-4 lg:m-10 m-5 lg:max-w-7xl gap-2 ">
                 
-                <div className="col-span-2 border-white rounded-3xl  md:h-[300px] w-56 md:w-[500px] lg:w-[848px] " >
+                <div className="col-span-2 border-white rounded-3xl  md:h-[300px] w-[100%] md:w-[500px] lg:w-[100%] " >
                     <a href="https://victor--delta.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <img src={icon3} alt="Victor" className="md:rounded-3xl rounded-lg"/>
                     </a>
 
-                <div className=" col-span-2 mt-6  border-white  rounded-3xl md:h-[300px] w-56 md:w-[500px] lg:w-[848px]" >
+                <div className=" col-span-2 mt-6  border-white  rounded-3xl md:h-[300px] w-[100%] md:w-[500px] lg:w-[100%]" >
                 <a href="https://alabayjatinmehta-jatins-projects-a1a570d0.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <img src={icon1} alt="Alabay" className="md:rounded-3xl rounded-lg "/>
                     </a>
 
                 </div>
                 
-                <div className=" col-span-2 md:mt-[-29px] lg:mt-32 mt-6 border-white  rounded-3xl md:h-[300px] w-56 md:w-[500px] lg:w-[848px]" >
+                <div className=" col-span-2 md:mt-[-29px] lg:mt-5 xl:mt-32 mt-6 border-white  rounded-3xl md:h-[300px] w-[100%] md:w-[500px] lg:w-[100%]" >
                 <a href="https://jatinmehta007.github.io/IXIGO-TRAIN-APP-CLONE/" target="_blank" rel="noopener noreferrer">
                     <img src={icon5} alt="Ixigo" className="md:rounded-3xl rounded-lg"/>
                     </a>
                 </div>
-                <div className="lg:mt-32 md:mt-[-70px] mt-10">
+                <div className="lg:mt-4 xl:mt-32 md:mt-[-70px] mt-10">
                     <TypewriterEffectSmooth words={words}/>
                 </div>
                 </div>
