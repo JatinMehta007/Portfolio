@@ -45,7 +45,7 @@ export const Grid=()=>{
                     <img src={icon5} alt="Ixigo" className="md:rounded-3xl rounded-lg"/>
                     </a>
                 </div>
-                <div className="lg:mt-4 xl:mt-32 md:mt-[-70px] mt-10">
+                <div className="lg:mt-4 xl:mt-32 md:mt-[-70px] ">
                     <TypewriterEffectSmooth words={words}/>
                 </div>
                 </div>
