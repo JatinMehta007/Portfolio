@@ -1,5 +1,4 @@
 import React from "react";
-import { TextHoverEffectDemo } from "./main/text";
 import { Nav } from "./main/navbar"; 
 import { SVGMaskEffectDemo } from "./main/svg"; 
 import { Grid } from "./main/grid";
