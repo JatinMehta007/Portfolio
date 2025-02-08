@@ -1,8 +1,8 @@
 import React from "react";
-import { Nav } from "./main/navbar"; 
+import { Nav } from "./files/navbar"; 
 import { SVGMaskEffectDemo } from "./main/svg"; 
-import { Grid } from "./main/grid";
-import { Tabs } from "./main/tabs";
+import { Grid } from "./files/grid";
+import { Tabs } from "./files/tabs";
 import { InfiniteMovingCardsDemo } from "./main/moving-stack";
 
  function App() {

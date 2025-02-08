@@ -8,7 +8,7 @@ import icon4 from "../images/icon4.png";
 import icon5 from "../images/icon5.png";
 
 
-import { TypewriterEffectSmooth } from "../components/ui/type-writer"
+import { TypewriterEffectSmooth } from "../components/ui/text-writer"; 
 
 export const Grid=()=>{
     const words = [

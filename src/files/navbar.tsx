@@ -2,7 +2,7 @@ import React from "react";
 import github from '../images/github.png';
 import linkdin from '../images/linkdin.png'; 
 import resume from "../images/resume.png"
-import { ProfilePic } from "./profile-pic";
+import { ProfilePic } from "../main/profile-pic";
 
 export const Nav=()=>{
      
@@ -37,8 +37,10 @@ export const Nav=()=>{
         </button>
         </a>
      </div>
-     
       </div>
+     <div>
+      dafads
+     </div>
  </div>
     )
 }
