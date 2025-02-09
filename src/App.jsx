@@ -7,7 +7,7 @@ import { InfiniteMovingCardsDemo } from "./main/moving-stack";
 
  function App() {
   return (
-    <div className="w-screen h-full bg-gradient-to-r from-gray-900 via-black to-gray-950">
+    <div className="w-screen h-full bg-gradient-to-r from-gray-900 via-black to-gray-950 dark:bg-white dark:bg-none">
       <div>
       <Nav/>
       </div>

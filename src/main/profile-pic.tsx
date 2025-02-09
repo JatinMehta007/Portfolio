@@ -14,7 +14,7 @@ const people = [
 
 export function ProfilePic() {
   return (
-    <div className=" mt-14 m-auto pr-[1200px]">
+    <div className=" mt-14 m-auto pr-[1200px]  ">
       <AnimatedTooltip items={people} />
     </div>
   );
