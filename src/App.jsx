@@ -15,7 +15,7 @@ import { InfiniteMovingCardsDemo } from "./main/moving-stack";
         <div className="sm:mt-40 mt-28">
         <SVGMaskEffectDemo/>
         </div>
-      <div className="text-xl text-slate-400 text-center m-20 font-semibold tracking-wider">
+      <div className="text-xl text-slate-400 text-center m-20 font-semibold tracking-wider dark:text-slate-500">
       A passionate Full-Stack Developer and UI Designer dedicated to crafting intuitive and dynamic digital experiences.
       </div>
       <div>
