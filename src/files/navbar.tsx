@@ -27,7 +27,7 @@ export const Nav=()=>{
         <div className="invisible lg:visible">
         <ProfilePic/>
         </div>
-      <div className="fixed flex first-letter  items-center justify-center  top-5 h-14 w-[320px] left-[-10px] md:left-0 md:w-[80%] lg:h-20 m-6   lg:w-[70%] border-transparent transition duration-1000 ease-in-out bg-gradient-to-r from-zinc-900 via-transparent to-zinc-900 rounded-3xl text-slate-200 hover:border hover:border-gray-700  dark:bg-zinc-300 dark:bg-none dark:">
+      <div className="fixed flex first-letter  items-center justify-center  top-5 h-14 w-[320px]  md:w-[80%] lg:h-20 m-6   lg:w-[70%] border-transparent transition duration-1000 ease-in-out bg-gradient-to-r from-zinc-900 via-transparent to-zinc-900 rounded-3xl text-slate-200 hover:border hover:border-gray-700  dark:bg-zinc-300 dark:bg-none ">
           <div  className="lg:m-7 m-4 text-sm md:text-base lg:text-lg  uppercase text-slate-400  tracking-wider lg:font-medium dark:text-black">
           Jatin Mehta
           </div>

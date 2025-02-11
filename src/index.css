@@ -4,6 +4,6 @@
 
 
 html, body {
-    overflow-x: hidden; /* Prevents horizontal scrolling */
-    max-width: 100vw; /* Ensures the width never exceeds the viewport */
+    overflow-x: hidden;
+    max-width: 100vw; 
   }
