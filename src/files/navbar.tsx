@@ -24,10 +24,10 @@ export const Nav=()=>{
 
     return (
       <div className=" flex items-center justify-center ">
-        <div className="">
+        <div className="invisible lg:visible">
         <ProfilePic/>
         </div>
-      <div className="fixed flex items-center justify-center top-5 h-14 w-[90%] md:w-[80%] lg:h-20 m-6   lg:w-[70%] border-transparent transition duration-1000 ease-in-out bg-gradient-to-r from-zinc-900 via-transparent to-zinc-900 rounded-3xl text-slate-200 hover:border hover:border-gray-700  dark:bg-zinc-300 dark:bg-none dark:">
+      <div className="fixed flex items-center justify-center top-5 h-14 w-[80%] md:w-[80%] lg:h-20 m-6   lg:w-[70%] border-transparent transition duration-1000 ease-in-out bg-gradient-to-r from-zinc-900 via-transparent to-zinc-900 rounded-3xl text-slate-200 hover:border hover:border-gray-700  dark:bg-zinc-300 dark:bg-none dark:">
           <div  className="lg:m-7 m-4 text-sm md:text-base lg:text-lg  uppercase text-slate-400  tracking-wider lg:font-medium dark:text-black">
           Jatin Mehta
           </div>
@@ -56,7 +56,7 @@ export const Nav=()=>{
       </div>
      <div
       onClick={toggleTheme}
-      className="border p-2 rounded-md mt-14 border-zinc-700 cursor-pointer hover:bg-zinc-700"
+      className="border p-1 lg:p-2 rounded-md mt-8 lg:mt-14 border-zinc-700 cursor-pointer hover:bg-zinc-700 mr-[805px] lg:mr-0"
     >
       {theme === "light" ? (
         // Moon icon for light mode
