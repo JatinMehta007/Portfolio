@@ -18,7 +18,7 @@ export const Grid=()=>{
         },
         {
             text: "link below",
-            className:"text-orange-600 lg:text-4xl md:text-3xl "
+            className:"text-orange-600 lg:text-4xl md:text-3xl dark:text-orange-500 "
           },
       ];
     return (
