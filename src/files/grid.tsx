@@ -28,7 +28,7 @@ export const Grid=()=>{
             </div>
             <div className="grid grid-cols-3  text-white  md:gap-4 lg:m-10 m-5 lg:max-w-7xl gap-2 ">
                 
-                <div className="col-span-2 border-white rounded-3xl  md:h-[300px] w-[100%] md:w-[500px] lg:w-[100%] " >
+                <div className="col-span-2 border-white rounded-3xl  md:h-[300px] w-[100%] md:w-[500px] lg:w-[100%] hover:" >
                     <a href="https://victor--delta.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <img src={icon3} alt="Victor" className="md:rounded-3xl rounded-lg"/>
                     </a>
