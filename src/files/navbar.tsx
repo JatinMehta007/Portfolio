@@ -56,7 +56,7 @@ export const Nav=()=>{
       </div>
      <div
       onClick={toggleTheme}
-      className="border absolute w-auto top-6 right-4  p-1 lg:p-2 rounded-md mt-8 lg:mt-14 border-zinc-700 cursor-pointer hover:bg-zinc-700  lg:mr-0 z-50"
+      className="border absolute w-auto top-6 right-4 md:right-0  p-1 lg:p-2 rounded-md mt-8 lg:mt-11 border-zinc-700 cursor-pointer hover:bg-zinc-700  lg:mr-20 z-50"
     >
       {theme === "light" ? (
         // Moon icon for light mode
