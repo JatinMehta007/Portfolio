@@ -23,12 +23,12 @@ export const Tabs=()=>{
                     <div className="h-2 sm:hidden"></div>
                     <div className="text-white  m-10 bg-gradient-to-t from-pink-400 via-purple-400 to-purple-800  h-32 rounded-3xl ">
                         <div>
-                        <img src={git} alt="" className="px-20 pt-9 cursor-none"/>
+                        <img src={git} alt="" className="px-20 pt-9"/>
                         </div>
                     </div>
                     <div className="uppercase text-slate-500 font-semibold text-center">
                         <p>github</p>
-                        <span className="text-xs text-center m-2 cursor-none">Be sure to browse my GitHub to delve into the repositories of my latest projects.</span>
+                        <span className="text-xs text-center m-2">Be sure to browse my GitHub to delve into the repositories of my latest projects.</span>
                     </div>
                 </a>
 
@@ -37,7 +37,7 @@ export const Tabs=()=>{
                     <a href="https://www.linkedin.com/in/jatin-mehta-a70a0025a/" target="_blank" rel="noopener noreferrer">
                     <div className="text-white m-10 bg-gradient-to-tl from-yellow-200  to-pink-400   h-32 rounded-3xl">
                     <div>
-                        <img src={linkdin} alt="" className="px-20 pt-9 cursor-none"/>
+                        <img src={linkdin} alt="" className="px-20 pt-9"/>
                         </div>
                     </div>
                     <div className="uppercase text-slate-500 font-semibold text-center">
@@ -53,10 +53,10 @@ export const Tabs=()=>{
                 <div className="h-2 sm:hidden"></div>
                 <div className="text-white m-10   bg-gradient-to-tl from-gray-600   to-gray-300 h-32 rounded-3xl">
                 <div>
-                        <img src={notion} alt="" className="px-20 pt-9 cursor-none"/>
+                        <img src={notion} alt="" className="px-20 pt-9"/>
                         </div>
                     </div>
-                    <div className="uppercase text-slate-500 font-semibold text-center cursor-none">
+                    <div className="uppercase text-slate-500 font-semibold text-center">
                         <p>Notion</p>
                         <span className="text-xs text-center m-4">Discover all my projects here to experience the amazing interfaces of my great works.</span>
                     </div>
@@ -69,7 +69,7 @@ export const Tabs=()=>{
 
                     <div className="text-white mt-10 m-10  bg-gradient-to-t from-yellow-200 to-blue-400  h-32 rounded-3xl">
                     <div>
-                        <img src={twitter} alt="" className="px-20 pt-9 cursor-none"/>
+                        <img src={twitter} alt="" className="px-20 pt-9"/>
                         </div>
                     </div>
                     <div className="uppercase text-slate-500 font-semibold text-center">
