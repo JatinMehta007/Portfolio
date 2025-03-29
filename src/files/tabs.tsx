@@ -8,7 +8,7 @@ import { FollowerPointerCard } from "../components/ui/following_pointer";
 
 export const Tabs=()=>{
     return (
-        <div className="flex sm:mt-20 justify-center  items-center ">
+        <div className="flex sm:mt-20 justify-center  items-center  ">
              <FollowerPointerCard
                     title={
                       <TitleComponent
@@ -60,12 +60,11 @@ export const Tabs=()=>{
                         <p>Notion</p>
                         <span className="text-xs text-center m-4">Discover all my projects here to experience the amazing interfaces of my great works.</span>
                     </div>
-            </a>
+                </a>
 
                     <div className="col-span-1  bg-gradient-to-r from-black via-gray-900 rounded-3xl mt-20 h-80 hover:border-gray-700 hover:border border-transparent dark:bg-white dark:bg-none dark:hover:border-orange-400">
                     <div className="h-2"></div>
-                    <a href="
-                    https://x.com/JatinMehta35630" target="_blank" rel="noopener noreferrer">
+                    <a href="https://x.com/JatinMehta35630" target="_blank" rel="noopener noreferrer">
 
                     <div className="text-white mt-10 m-10  bg-gradient-to-t from-yellow-200 to-blue-400  h-32 rounded-3xl">
                     <div>
