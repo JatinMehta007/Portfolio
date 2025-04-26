@@ -26,7 +26,10 @@ Hi, I'm **[Jatin Kumar Mehta]** — a **[Frontend Developer | Full Stack Develop
 | Frontend | Backend | Database | Tools |
 |:--------:|:-------:|:---------:|:-----:|
 | React / Next.js | Node.js / Express | MongoDB / PostgreSQL | TailwindCSS, Prisma |
-| HTML5, CSS3, TypeScript | JWT Auth | MySQL | Docker, GitHub, Figma |
+| HTML5, CSS3, TypeScript | JWT Auth | MySQL | Docker, GitHub |
+
+
+![Dashboard Screenshot](./src/images/stack1.png) 
 
 </div>
 
@@ -45,10 +48,10 @@ Hi, I'm **[Jatin Kumar Mehta]** — a **[Frontend Developer | Full Stack Develop
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-portfolio.git
+git clone https://github.com/JatinMehta007/Portfolio.git
 
 # Navigate into the folder
-cd your-portfolio
+cd Portfolio
 
 # Install dependencies
 npm install
