@@ -14,7 +14,7 @@ export const Grid=()=>{
     const words = [
         {
           text: "Project's",
-          className:"dark:text-slate-600 text-white md:text-7xl lg:text-8xl xl:text-9xl  text-4xl"
+          className:"dark:text-black text-white md:text-7xl lg:text-8xl xl:text-9xl  text-4xl"
         },
         {
             text: "link below",
