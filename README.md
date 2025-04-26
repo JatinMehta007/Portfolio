@@ -4,7 +4,7 @@
 
 **Crafting digital experiences with passion and precision.**
 
-[Live Website 🚀](https://your-portfolio-link.com) | [GitHub 🔗](https://github.com/your-username/your-portfolio)
+[Live Website 🚀](https://portfolio-jatinmehta.vercel.app/) | [GitHub 🔗](https://github.com/JatinMehta007/Portfolio)
 
 </div>
 
