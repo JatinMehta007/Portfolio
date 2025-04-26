@@ -8,7 +8,7 @@ const people = [
     name: "Jatin Mehta",
     designation: "Developer",
     image:
-      "https://i.postimg.cc/4xPPDK1z/5B0A5467.jpg",
+      "https://i.postimg.cc/KvHtCFjC/Whats-App-Image-2025-04-26-at-22-42-37.jpg",
   },
 ];
 
