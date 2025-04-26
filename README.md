@@ -37,6 +37,11 @@ Hi, I'm **[Jatin Kumar Mehta]** — a **[Frontend Developer | Full Stack Develop
 ![Dashboard Screenshot](./src/images/stack6.png)
 ![Dashboard Screenshot](./src/images/stack7.png)
 ![Dashboard Screenshot](./src/images/stack8.png)
+![Dashboard Screenshot](./src/images/stack9.png)
+![Dashboard Screenshot](./src/images/stack10.png)
+![Dashboard Screenshot](./src/images/stack11.png)
+![Dashboard Screenshot](./src/images/stack12.png)
+![Dashboard Screenshot](./src/images/stack13.png)
 
 </div>
 
