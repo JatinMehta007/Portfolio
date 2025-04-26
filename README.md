@@ -11,10 +11,10 @@
 ---
 
 ## 📚 About Me
-Hi, I'm **[Your Name]** — a **[Frontend Developer | Full Stack Developer | UI/UX Enthusiast]** who loves transforming ideas into reality through code and design.
+Hi, I'm **[Jatin Kumar Mehta]** — a **[Frontend Developer | Full Stack Developer | UI Developer]** who loves transforming ideas into reality through code and design.
 
 - 🔥 Passionate about building modern and accessible web apps
-- 🎨 Focused on beautiful, clean UI/UX
+- 🎨 Focused on beautiful, clean UI
 - 🌱 Always learning and evolving
 
 ---
