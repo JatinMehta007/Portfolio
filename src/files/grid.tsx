@@ -14,7 +14,7 @@ export const Grid=()=>{
     const words = [
         {
           text: "Project's",
-          className:"text-slate-600 md:text-7xl lg:text-8xl xl:text-9xl  text-4xl"
+          className:"dark:text-slate-600 text-white md:text-7xl lg:text-8xl xl:text-9xl  text-4xl"
         },
         {
             text: "link below",
@@ -23,7 +23,7 @@ export const Grid=()=>{
       ];
     return (
         <div className="">
-            <div className="uppercase md:text-5xl text-3xl font-bold md:m-20 m-10 text-center md:text-left text-slate-500 tracking-widest   relative   overflow-hidden ">
+            <div className="uppercase md:text-5xl text-3xl dark:font-normal font-bold md:m-20 m-10 text-center md:text-left dark:text-black text-zinc-200 tracking-widest   relative   overflow-hidden ">
                 selected work
             </div>
                          <FollowerPointerCard
