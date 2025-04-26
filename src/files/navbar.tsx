@@ -3,8 +3,6 @@ import github from '../images/github.png';
 import linkdin from '../images/linkdin.png'; 
 import resume from "../images/resume.png"
 import { ProfilePic } from "../main/profile-pic";
-import { FollowerPointerCard } from "../components/ui/following_pointer";
-// import Image from "next/image";
 
 export const Nav=()=>{
      const [theme,setTheme] = useState(()=>{
