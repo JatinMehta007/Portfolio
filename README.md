@@ -25,11 +25,11 @@ Hi, I'm **[Jatin Kumar Mehta]** — a **[Frontend Developer | Full Stack Develop
 
 | Frontend | Backend | Database | Tools |
 |:--------:|:-------:|:---------:|:-----:|
-| React (./src/images/stack1.png) / Next.js | Node.js / Express | MongoDB / PostgreSQL | TailwindCSS, Prisma |
+| React ![Dashboard Screenshot](./src/images/stack1.png) / Next.js | Node.js / Express | MongoDB / PostgreSQL | TailwindCSS, Prisma |
 | HTML5, CSS3, TypeScript | JWT Auth | MySQL | Docker, GitHub |
 
 
-<!-- (./src/images/stack1.png)  -->
+ 
 
 </div>
 
