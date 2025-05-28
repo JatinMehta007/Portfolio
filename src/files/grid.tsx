@@ -4,7 +4,7 @@ import icon1 from "../images/icon1.png";
 import icon2 from "../images/icon2.png";
 import icon3 from "../images/icon3.png";
 import icon4 from "../images/icon4.png";
-import icon5 from "../images/icon5.png";
+import docplatter from "../images/docplatter.png";
 import jatin from "../images/jatin.jpeg";
 
 import { TypewriterEffectSmooth } from "../components/ui/text-writer"; 
@@ -49,10 +49,10 @@ export const Grid=()=>{
                 
                 <div className=" col-span-2 md:mt-[-29px] lg:mt-5 xl:mt-32 mt-6 border-white  rounded-3xl md:h-[300px] w-[100%] md:w-[500px] lg:w-[100%]" >
                 <a href="https://jatinmehta007.github.io/IXIGO-TRAIN-APP-CLONE/" target="_blank" rel="noopener noreferrer">
-                    <img src={icon5} alt="Ixigo" className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000 "/>
+                    <img src={docplatter} alt="Docplatter" className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1  hover:scale-95 duration-1000 "/>
                     </a>
                 </div>
-                <div className="lg:mt-4 xl:mt-32 md:mt-[-70px] ">
+                <div className="lg:mt-4 xl:mt-40 md:mt-[-70px] ">
                     <TypewriterEffectSmooth words={words}/>
                 </div>
                 </div>
