@@ -1,10 +1,10 @@
-import React from "react";
+
 import { Nav } from "./files/navbar"; 
 import { SVGMaskEffectDemo } from "./main/svg"; 
 import { Grid } from "./files/grid";
 import { Tabs } from "./files/tabs";
 import { InfiniteMovingCardsDemo } from "./main/moving-stack";
-import { Contact } from "./main/contact";
+// import { Contact } from "./main/contact";
 
  function App() {
   return (
@@ -27,7 +27,7 @@ import { Contact } from "./main/contact";
       <div >
 <InfiniteMovingCardsDemo/>
       </div>
-      <Contact/>
+      {/* <Contact/> */}
       <hr className=" border-1 border-slate-600 m-6"/>
       <div className="dark:text-zinc-600 text-zinc-200 text-sm text-center p-4 font-medium tracking-widest ">
               <p>2025-built by Jatin Mehta</p>
