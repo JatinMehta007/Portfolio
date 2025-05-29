@@ -1,5 +1,4 @@
 
-import React from "react";
 import icon1 from "../images/icon1.png";
 import icon2 from "../images/icon2.png";
 import icon3 from "../images/icon3.png";
@@ -36,23 +35,23 @@ export const Grid=()=>{
             <div className="grid grid-cols-3  text-white  md:gap-4 lg:m-10 m-5 lg:max-w-7xl gap-2 ">
                 
                 <div className="col-span-2 border-white rounded-3xl  md:h-[300px] w-[100%] md:w-[500px] lg:w-[100%] " >
-                    <a href="https://victor-jatinmehta.vercel.app/" target="_blank" rel="noopener noreferrer">
-                    <img src={icon3} alt="Victor" className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000 "/>
+                    <a href="https://docplatter-jatinmehta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <img src={docplatter} alt="Docplatter" className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000 "/>
                     </a>
 
                 <div className=" col-span-2 mt-6  border-white  rounded-3xl md:h-[300px] w-[100%] md:w-[500px] lg:w-[100%]" >
-                <a href="https://alibay-jatinmehta.vercel.app/" target="_blank" rel="noopener noreferrer">
-                    <img src={icon1} alt="Alabay" className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000 "/>
+                <a href="https://victor-jatinmehta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <img src={icon3} alt="Victor" className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000 "/>
                     </a>
 
                 </div>
                 
                 <div className=" col-span-2 md:mt-[-29px] lg:mt-5 xl:mt-32 mt-6 border-white  rounded-3xl md:h-[300px] w-[100%] md:w-[500px] lg:w-[100%]" >
-                <a href="https://docplatter-jatinmehta.vercel.app/" target="_blank" rel="noopener noreferrer">
-                    <img src={docplatter} alt="Docplatter" className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1  hover:scale-95 duration-1000 "/>
+                <a href="https://alibay-jatinmehta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <img src={icon1} alt="Alabay" className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1  hover:scale-95 duration-1000 "/>
                     </a>
                 </div>
-                <div className="lg:mt-4 xl:mt-40 md:mt-[-70px] ">
+                <div className="lg:mt-4 xl:mt-32 md:mt-[-70px] ">
                     <TypewriterEffectSmooth words={words}/>
                 </div>
                 </div>
