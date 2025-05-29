@@ -49,7 +49,7 @@ export const Nav=()=>{
         </a>
      </div>
      <div>
-        <a href="/Jatin_Resume 1.pdf" download target="_blank" rel="noopener noreferrer">
+        <a href="/JatinResume.pdf" download target="_blank" rel="noopener noreferrer">
         <button>    
         <img src={resume} alt="" className="lg:p-4 h-7 mt-2 w-7 md:h-8 md:w-8  mr-2 lg:h-20 lg:w-20 lg:m-0 rounded-full transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700 lg:border-gray-600 lg:hover:border lg:hover:border-gray-900 dark:hover:border-gray-300 dark:hover:scale-100 " />
         </button>
