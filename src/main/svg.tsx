@@ -3,7 +3,7 @@ import { FlipWords } from "../components/ui/flipword";
 import React from "react";
 
 export function SVGMaskEffectDemo() {
-  const words = ["a full stack developer" , "coder" , "Freelancer", ]
+  const words = ["a full stack developer" , "coder" , "Freelancer","Frontend Developer" ]
   return (
     <div > 
 
