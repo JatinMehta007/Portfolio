@@ -1,5 +1,4 @@
 
-import React from "react";
 import { InfiniteMovingCards } from "../components/ui/moving";
 import stack1 from "../images/stack1.png";
 import stack2 from "../images/stack2.png";
@@ -18,8 +17,8 @@ import stack13 from "../images/stack13.png";
 export function InfiniteMovingCardsDemo() {
   return (
     <div
-      className=" rounded-md flex flex-col mt-10 items-center justify-center relative overflow-hidden">
-        <p className=" tracking-wider uppercase font-bold text-gray-300 dark:text-black text-3xl ">My skills</p> 
+      className=" rounded-md flex flex-col lg:mt-10 bottom-80 lg:bottom-0 md:bottom-28 items-center justify-center relative overflow-hidden">
+        <p className=" tracking-wider uppercase font-bold text-blue-400 dark:text-black text-4xl ">My skills</p> 
       <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
     </div>
   );
