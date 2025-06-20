@@ -3,7 +3,7 @@ import { SVGMaskEffectDemo } from "./main/svg";
 import { Grid } from "./files/grid";
 import { InfiniteMovingCardsDemo } from "./main/moving-stack";
 import { cn } from "./lib/utils";
-import { IconBrandGithub, IconBrandTwitter, IconBrandLinkedin,IconMail } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandTwitter, IconBrandLinkedin,IconMail,IconBrandNotion } from "@tabler/icons-react";
 import { TracingBeam } from "./components/ui/tracing-beam";
 
 function App() {
@@ -67,6 +67,10 @@ function App() {
                 <a href="https://github.com/JatinMehta007" target="_blank"
                 rel="noopener noreferrer"> 
                 <IconBrandGithub className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5" ></IconBrandGithub>
+                </a>
+                <a href="https://www.notion.so/Jatin-Kumar-Mehta-110ba337e0ad80f78fc4dc0cd559e43d?source=copy_link" target="_blank"
+                rel="noopener noreferrer"> 
+                <IconBrandNotion className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5" ></IconBrandNotion>
                 </a>
               </div>
                </div>
