@@ -1,6 +1,6 @@
 import { Nav } from "./files/navbar";
 import { SVGMaskEffectDemo } from "./main/svg";
-import { Grid } from "./files/grid";
+import { Grid } from "./files/projects"; 
 import { InfiniteMovingCardsDemo } from "./main/moving-stack";
 import { cn } from "./lib/utils";
 import { IconBrandGithub, IconBrandTwitter, IconBrandLinkedin,IconMail,IconBrandNotion } from "@tabler/icons-react";
