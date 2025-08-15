@@ -17,7 +17,7 @@ import stack13 from "../images/stack13.png";
 export function InfiniteMovingCardsDemo() {
   return (
     <div
-      className=" rounded-md flex flex-col lg:mt-10 bottom-80 lg:bottom-0 md:bottom-28 items-center justify-center relative overflow-hidden">
+      className=" rounded-md flex flex-col lg:mt-32 bottom-80 lg:bottom-0 md:bottom-28 items-center justify-center relative overflow-hidden">
         <p className=" tracking-wider uppercase font-bold text-blue-400 dark:text-black text-4xl ">My skills</p> 
       <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
     </div>
