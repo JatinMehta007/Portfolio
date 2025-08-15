@@ -4,10 +4,12 @@ import icon3 from "../images/icon3.png";
 import icon4 from "../images/icon4.png";
 import icon5 from "../images/doc-mobile.png";
 import icon6 from "../images/devtoolbox.png";
+import icon7 from "../images/freelance.png";
+import icon8 from "../images/free.png";
 import docplatter from "../images/docplatter.png";
 import FadeInSection from "../components/ui/fadeInsection";
 import { PinContainer } from "../components/ui/3d-pin";
-import { act, useState } from "react";
+import {  useState } from "react";
 
 export const Grid = () => {
   const [activeTab , setActiveTab] = useState("personal");
@@ -22,8 +24,8 @@ export const Grid = () => {
         <button onClick={() => setActiveTab("personal")} className={`rounded-lg rounded-r-none  border-r-0 border px-10 py-1 ${activeTab === "personal" ? "py-[5px] bg-stone-900" : "py-[7px] p-1 "}` }>
        Personal Projects 
         </button>
-        <button  onClick={() => setActiveTab("freelance")}   className={`rounded-lg rounded-l-none  border-l-0 border  px-10 ${activeTab === "freelance" ? "p-1 bg-stone-900" : "p-2 "}`} >
-          Freelance Projects
+        <button  onClick={() => setActiveTab("client")}   className={`rounded-lg rounded-l-none  border-l-0 border  px-10 ${activeTab === "client" ? "p-1 bg-stone-900" : "p-2 "}`} >
+          Client   Projects
         </button>
         </div>
       </div>
@@ -79,7 +81,7 @@ export const Grid = () => {
             <div className=" col-span-2  border-white  rounded-3xl ">
               <PinContainer
                 title="devtoolbox.com"
-                className="  xl:w-[100%] md:w-[400px] lg:w-[90%]   lg:left-20 xl:top-5 bottom-[225px] left-1/4 xl:left-0 lg:top-4 md:-top-32  w-[110%]"
+                className="  xl:w-[100%] md:w-[400px] lg:w-[90%]   lg:left-20 xl:top-5 bottom-[320px] left-1/4 xl:left-0 lg:top-4 md:-top-32  w-[110%]"
                 href="https://dev-tool-box-jatin.vercel.app/"
                 >
                 <img
@@ -137,7 +139,7 @@ export const Grid = () => {
         
       </div>
       )}
-      {activeTab === "freelance" && <Freelance />}
+      {activeTab === "client" && <Freelance />}
     </div>
   );
 };
@@ -145,9 +147,41 @@ export const Grid = () => {
 
 export const Freelance = () => {
   return (
-    <div className="text-center text-white p-20">
-      <h2 className="text-2xl font-bold">Freelance Projects</h2>
-      <p className="mt-4">Coming soon...</p>
+    <div className="text-center text-white ">
+      <div className="grid grid-cols-3  text-white  md:gap-16 ">
+        <div className="col-span-2 border-white rounded-3xl   ">
+          <PinContainer
+            title="gemstone.com"
+            className=" md:w-[400px] lg:w-[90%] xl:w-[100%] w-[110%] xl:left-0  left-1/4 lg:left-20 relative  "
+            href="https://freelance-project-demo.vercel.app/"
+            >
+            <FadeInSection direction="left">
+              <img
+                src={icon7}
+                alt="Docplatter"
+                className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000 border border-white "
+                />
+            </FadeInSection>
+          </PinContainer>
+          </div>
+        <FadeInSection direction="right">
+          <div className="border-white  rounded-3xl hidden md:block ">
+            <PinContainer
+              title="gemstone.com"
+              className="md:w-[200px] xl:w-[100%]  lg:w-[100%] relative hidden md:block md:right-10 lg:right-0"
+              href="https://freelance-project-demo.vercel.app/"
+              >
+              <img
+                src={icon8}
+                alt="Victor"
+                className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000 border border-white"
+                />
+            </PinContainer>
+          </div>
+        </FadeInSection>
+          </div>
+
+          
     </div>
   );
 };
