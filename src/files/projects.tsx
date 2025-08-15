@@ -2,6 +2,8 @@ import icon1 from "../images/icon1.png";
 import icon2 from "../images/icon2.png";
 import icon3 from "../images/icon3.png";
 import icon4 from "../images/icon4.png";
+import icon5 from "../images/doc-mobile.png";
+import icon6 from "../images/devtoolbox.png";
 import docplatter from "../images/docplatter.png";
 import FadeInSection from "../components/ui/fadeInsection";
 import { PinContainer } from "../components/ui/3d-pin";
@@ -73,6 +75,21 @@ export const Grid = () => {
               </PinContainer>
             </div>
           </FadeInSection>
+          <FadeInSection direction="left">
+            <div className=" col-span-2  border-white  rounded-3xl ">
+              <PinContainer
+                title="devtoolbox.com"
+                className="  xl:w-[100%] md:w-[400px] lg:w-[90%]   lg:left-20 xl:top-5 bottom-[225px] left-1/4 xl:left-0 lg:top-4 md:-top-32  w-[110%]"
+                href="https://dev-tool-box-jatin.vercel.app/"
+                >
+                <img
+                  src={icon6}
+                  alt="DevToolbox"
+                  className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1  hover:scale-95 duration-1000 border border-white"
+                  />
+              </PinContainer>
+            </div>
+          </FadeInSection>
         </div>
 
         <FadeInSection direction="right">
@@ -91,6 +108,19 @@ export const Grid = () => {
 
             <div className="border-white rounded-3xl xl:mt-44 md:mt-10 lg:mt-36">
               <PinContainer
+                title="docplatter.com"
+                className="md:w-[200px]  xl:w-[100%] lg:w-[100%]  md:bottom-0   hidden md:block  relative md:right-10   lg:right-0   "
+                href="https://docplatter-jatinmehta.vercel.app/"
+                >
+                <img
+                  src={icon5}
+                  alt="Docplatter"
+                  className="md:rounded-2xl rounded-lg transition  ease-in-out delay-150 hover:translate-x-1    hover:scale-95 duration-1000 border border-white"
+                  />
+              </PinContainer>
+            </div>
+             <div className="border-white rounded-3xl xl:mt-44 md:mt-10 lg:mt-36">
+              <PinContainer
                 title="alabay.com"
                 className="md:w-[200px]  xl:w-[100%]  lg:w-[100%]  md:bottom-0   hidden md:block  relative md:right-10   lg:right-0   "
                 href="https://alabayjatinmehta-jatins-projects-a1a570d0.vercel.app/"
@@ -104,6 +134,7 @@ export const Grid = () => {
             </div>
           </div>
         </FadeInSection>
+        
       </div>
       )}
       {activeTab === "freelance" && <Freelance />}
