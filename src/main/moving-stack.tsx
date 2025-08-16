@@ -32,7 +32,7 @@ export function InfiniteMovingCardsDemo() {
       className=" rounded-md  lg:mt-32 bottom-80 lg:bottom-0 md:bottom-28 items-center justify-center relative overflow-hidden">
         <p className=" tracking-wider uppercase text-center  font-bold text-blue-400 dark:text-black text-4xl ">My skills</p> 
         <div className="mt-10  hover:cursor-pointer">
-       <div className="flex flex-wrap justify-between  gap-20 group">
+       <div className="flex flex-wrap justify-center lg:justify-between  gap-20 group">
   {testimonials.map((item) => (
     <div
       className="transition duration-700 ease-in-out transform group-hover:blur-sm hover:!blur-0 hover:scale-105 hover:rotate-[360deg]"
