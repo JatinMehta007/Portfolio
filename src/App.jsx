@@ -48,7 +48,7 @@ function App() {
               <InfiniteMovingCardsDemo />
             </div>
             {/* <Contact/> */}
-            <hr className=" border-1 border-slate-800 md:ml-20 xl:ml-0 lg:ml-16 md:mr-14 lg:mr-0 relative bottom-80 lg:bottom-0 md:bottom-28 w-[350px]  mx-auto md:w-[85%] lg:w-[92%] xl:w-full " />
+            <hr className=" border-1 border-slate-800 mt-10 md:ml-20 xl:ml-0 lg:ml-16 md:mr-14 lg:mr-0 relative bottom-80 lg:bottom-0 md:bottom-28 w-[350px]  mx-auto md:w-[85%] lg:w-[92%] xl:w-full " />
             <div className=" text-zinc-500  p-5 relative bottom-80 lg:bottom-0 md:bottom-28">
               <p className="md:px-24 lg:px-16 xl:px-0 px-2 font-light text-xs sm:text-sm">Jatin Mehta</p>
               <div className="flex justify-end gap-4 sm:gap-7 md:mr-8 lg:mr-0 cursor-pointer relative bottom-6">
