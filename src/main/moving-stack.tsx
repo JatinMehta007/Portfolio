@@ -23,120 +23,62 @@ import stack20 from "../images/stack20.png";
 import stack21 from "../images/stack21.png";
 import stack22 from "../images/stack22.png";
 import stack23 from "../images/stack23.png";
+import stack24 from "../images/stack24.png";
 
 export function InfiniteMovingCardsDemo() {
-  
-  
   return (
-    <div
-      className=" rounded-md  lg:mt-32 bottom-80 lg:bottom-0 md:bottom-28 items-center justify-center relative overflow-hidden">
-        <p className=" tracking-wider uppercase text-center  font-bold text-blue-400 dark:text-black text-4xl ">My skills</p> 
-        <div className="mt-10  hover:cursor-pointer">
-       <div className="flex flex-wrap justify-center lg:justify-between  gap-20 group">
-  {testimonials.map((item) => (
-    <div
-      className="transition duration-700 ease-in-out transform group-hover:blur-sm hover:!blur-0 hover:scale-105 hover:rotate-[360deg]"
-    >
-      {item.quote}
-    </div>
-  ))}
-</div>
-        </div>
-    </div>
+    <div className="rounded-md lg:mt-32 bottom-80 lg:bottom-0 md:bottom-28 items-center justify-center relative overflow-hidden">
+      <p className="tracking-wider uppercase text-center font-bold text-blue-400 dark:text-black text-4xl">
+        My skills
+      </p>
 
-    
+      <div className="mt-10 hover:cursor-pointer">
+        <div className="flex flex-wrap justify-center gap-20">
+          {testimonials.map((item, index) => (
+            <div
+              key={index}
+              className="relative group transition duration-700 ease-in-out transform hover:scale-110 hover:rotate-[360deg]"
+            >
+              <div className="group-hover:blur-none">
+                {item.quote}
+              </div>
+
+              {item.text && (
+                <div className="absolute -top-12 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-zinc-800 text-white text-sm font-black px-3 py-1 rounded-md whitespace-nowrap transition-opacity duration-300">
+                  {item.text}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
   );
 }
 
 const testimonials = [
-  {
-    quote:
-    <img src={stack1} alt="react" />, 
-},
-{
-    quote:
-    <img src={stack2} alt="tailwind" />, 
-},
-{
-    quote:
-    <img src={stack3} alt="nodejs" />, 
-},
-{
-    quote:
-    <img src={stack4} alt="expressjs" />, 
-},
-{
-    quote:
-    <img src={stack5} alt="nextjs" />, 
-},
-{
-    quote:
-    <img src={stack6} alt="postresql" />, 
-},
-{
-    quote:
-    <img src={stack7} alt="docker" />, 
-},
-{
-    quote:
-    <img src={stack8} alt="mongodb" />, 
-},
-{
-    quote:
-    <img src={stack9} alt="html" />, 
-},
-{
-    quote:
-    <img src={stack10} alt="css" />, 
-},
-{
-    quote:
-    <img src={stack11} alt="ts" />, 
-},
-{
-    quote:
-    <img src={stack12} alt="js" />, 
-},
-{
-    quote:
-    <img src={stack13} alt="sql" />, 
-},
-{
-    quote:
-    <img src={stack14} alt="figma" />, 
-},
-{
-    quote:
-    <img src={stack15} alt="vercel" className="w-16" />, 
-},
-{
-    quote:
-    <img src={stack16} alt="netlify" className="w-12" />, 
-},
-{
-    quote:
-    <img src={stack17} alt="postman" className="w-14" />, 
-},
-{
-    quote:
-    <img src={stack18} alt="netlify" className="w-14" />, 
-},{
-    quote:
-    <img src={stack19} alt="github" className="w-14" />, 
-},{
-    quote:
-    <img src={stack20} alt="vite" className="w-14" />, 
-},
-{
-    quote:
-    <img src={stack21} alt="replit" className="w-14" />, 
-},
-{
-    quote:
-    <img src={stack22} alt="c++" className="w-14" />, 
-},
-{
-    quote:
-    <img src={stack23} alt="c++" className="w-14" />, 
-},
+  { quote: <img src={stack1} alt="react" />, text: "React" },
+  { quote: <img src={stack2} alt="tailwind" />, text: "TailwindCSS" },
+  { quote: <img src={stack3} alt="nodejs" />, text: "Node.js" },
+  { quote: <img src={stack4} alt="expressjs" />, text: "Express.js" },
+  { quote: <img src={stack5} alt="nextjs" />, text: "Next.js" },
+  { quote: <img src={stack6} alt="postgresql" />, text: "PostgreSQL" },
+  { quote: <img src={stack7} alt="docker" />, text: "Docker" },
+  { quote: <img src={stack8} alt="mongodb" />, text: "MongoDB" },
+  { quote: <img src={stack9} alt="html" />, text: "HTML" },
+  { quote: <img src={stack10} alt="css" />, text: "CSS" },
+  { quote: <img src={stack11} alt="ts" />, text: "TypeScript" },
+  { quote: <img src={stack12} alt="js" />, text: "JavaScript" },
+  { quote: <img src={stack13} alt="sql" />, text: "SQL" },
+  { quote: <img src={stack14} alt="figma" />, text: "Figma" },
+  { quote: <img src={stack15} alt="vercel" className="w-16" />, text: "Vercel" },
+  { quote: <img src={stack16} alt="netlify" className="w-12" />, text: "Netlify" },
+  { quote: <img src={stack17} alt="postman" className="w-14" />, text: "Postman" },
+  { quote: <img src={stack18} alt="Aceternity" className="w-14" />, text: "Aceternity UI" },
+  { quote: <img src={stack19} alt="github" className="w-14" />, text: "GitHub" },
+  { quote: <img src={stack20} alt="vite" className="w-14" />, text: "Vite" },
+  { quote: <img src={stack21} alt="replit" className="w-14" />, text: "Replit" },
+  { quote: <img src={stack22} alt="c++" className="w-14" />, text: "C++" },
+  { quote: <img src={stack23} alt="vscode" className="w-14" />, text: "VS Code" },
+  { quote: <img src={stack24} alt="prisma orm" className="w-14" />, text: "Prisma ORM" },
 ];
