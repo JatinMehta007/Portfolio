@@ -1,5 +1,4 @@
 
-import { InfiniteMovingCards } from "../components/ui/moving";
 import stack1 from "../images/stack1.png";
 import stack2 from "../images/stack2.png";
 import stack3 from "../images/stack3.png";
@@ -33,18 +32,17 @@ export function InfiniteMovingCardsDemo() {
       </p>
 
       <div className="mt-10 hover:cursor-pointer">
-        <div className="flex flex-wrap justify-center gap-20">
+        <div className="flex flex-wrap justify-center gap-20 group">
           {testimonials.map((item, index) => (
             <div
               key={index}
-              className="relative group transition duration-700 ease-in-out transform hover:scale-110 hover:rotate-[360deg]"
+              className="relative  transition duration-700 ease-in-out transform group-hover:blur-sm hover:!blur-0 hover:scale-110 hover:rotate-[360deg] "
             >
-              <div className="group-hover:blur-none">
-                {item.quote}
-              </div>
-
+                <div>
+              {item.quote}
+                </div>
               {item.text && (
-                <div className="absolute -top-12 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-zinc-800 text-white text-sm font-black px-3 py-1 rounded-md whitespace-nowrap transition-opacity duration-300">
+                  <div className=" absolute -top-12 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 hover:opacity-100 bg-zinc-800 text-white text-sm font-black px-3 py-1 rounded-md whitespace-nowrap transition-opacity duration-300 ">
                   {item.text}
                 </div>
               )}
