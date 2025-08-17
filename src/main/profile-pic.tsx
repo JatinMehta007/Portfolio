@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { AnimatedTooltip } from "../components/ui/profile";
 
 const people = [
