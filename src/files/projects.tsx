@@ -149,21 +149,22 @@ export const Freelance = () => {
   return (
     <div className="text-center text-white ">
       <div className="grid grid-cols-3  text-white  md:gap-16 ">
-        <div className="col-span-2 border-white rounded-3xl   ">
+        <div className="col-span-2 border-white rounded-3xl  ">
           <PinContainer
             title="gemstone.com"
-            className=" md:w-[400px] lg:w-[90%] xl:w-[100%] w-[110%] xl:left-0  left-1/4 lg:left-20 relative  "
+            className=" md:w-[400px] lg:w-[90%] xl:w-[100%]  w-[110%] xl:left-0  left-1/4 lg:left-20 relative  "
             href="https://freelance-project-demo.vercel.app/"
             >
             <FadeInSection direction="left">
               <img
                 src={icon7}
-                alt="Docplatter"
+                alt="freelance"
                 className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000 border border-white "
                 />
             </FadeInSection>
           </PinContainer>
           </div>
+
         <FadeInSection direction="right">
           <div className="border-white  rounded-3xl hidden md:block ">
             <PinContainer
@@ -173,7 +174,7 @@ export const Freelance = () => {
               >
               <img
                 src={icon8}
-                alt="Victor"
+                alt="freelance"
                 className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000 border border-white"
                 />
             </PinContainer>
