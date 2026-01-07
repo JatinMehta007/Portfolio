@@ -31,7 +31,7 @@ export function InfiniteMovingCardsDemo() {
         My skills
       </p>
 
-      <div className="mt-10 hover:cursor-pointer">
+      <div className="mt-14 hover:cursor-pointer">
         <div className="flex flex-wrap justify-center gap-20 group">
           {testimonials.map((item, index) => (
             <div
