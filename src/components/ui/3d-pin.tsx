@@ -29,11 +29,12 @@ export const PinContainer = ({
   };
 
   return (
-    <a
+    <div
       className={cn("relative group/pin  cursor-pointer", containerClassName)}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
-      href={href || "#"}
+    >
+      <a href={href || "#"}
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -50,6 +51,7 @@ export const PinContainer = ({
       {/* Hover Title + Effects */}
       <PinPerspective title={title} href={href} />
     </a>
+    </div>
   );
 };
 
