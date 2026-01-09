@@ -9,9 +9,11 @@
 html, body {
     overflow-x: hidden;
     max-width: 100vw; 
-  
+
   }
 
-
+[data-scroll-container] {
+  min-height: 100vh;
+}
 
   
