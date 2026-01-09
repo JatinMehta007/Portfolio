@@ -7,10 +7,13 @@ import { IconBrandGithub, IconBrandTwitter, IconBrandLinkedin,IconMail,IconBrand
 import { TracingBeam } from "./components/ui/tracing-beam";
 // import { GitHubCalendar } from "react-github-calendar";
 import  GithubActivity  from "./main/Github-activity";
+import SmoothWrapper from "./components/ui/scroll";
 
 function App() {
   return (
     <>
+
+        <SmoothWrapper>
       <div className="w-screen min-h-screen font-hanken relative bg-white text-black dark:bg-black dark:text-white">
         <div
           className={cn(
@@ -21,7 +24,7 @@ function App() {
             // dark grid
             "dark:bg-black dark:[background-image:linear-gradient(to_right,#27272a_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
           )}
-        ></div>
+          ></div>
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white dark:bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_1%,black)] "></div>
         
         <div className="bg-gradient-to-r from-white to-white dark:from-neutral-950 dark:to-neutral-950">
@@ -82,6 +85,7 @@ function App() {
           </TracingBeam>
         </div>
       </div>
+                </SmoothWrapper>
     </>
   );
 }
