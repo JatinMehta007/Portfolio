@@ -27,8 +27,8 @@ import stack24 from "../images/stack24.png";
 export function InfiniteMovingCardsDemo() {
   return (
     <div className="rounded-md lg:mt-32 bottom-80 lg:bottom-0 md:bottom-28 items-center justify-center relative overflow-hidden">
-      <p className="tracking-wider uppercase text-center font-bold text-blue-400 dark:text-black text-4xl">
-        My skills
+      <p className="tracking-wider  text-center font-bold text-blue-400 text-4xl">
+        Tech Stack
       </p>
 
       <div className="mt-14 hover:cursor-pointer">
