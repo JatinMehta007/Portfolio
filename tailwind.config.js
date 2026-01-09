@@ -19,7 +19,10 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
-      
+      fontFamily:{
+        title:["Geist Mono" ,"sans-serif"],
+        hanken: ["Hanken Grotesk", "sans-serif"]
+      },
 keyframes: {
   moveHorizontal: {
   "0%": {
