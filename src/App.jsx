@@ -5,24 +5,29 @@ import { InfiniteMovingCardsDemo } from "./main/moving-stack";
 import { cn } from "./lib/utils";
 import { IconBrandGithub, IconBrandTwitter, IconBrandLinkedin,IconMail,IconBrandNotion } from "@tabler/icons-react";
 import { TracingBeam } from "./components/ui/tracing-beam";
+// import { GitHubCalendar } from "react-github-calendar";
+import  GithubActivity  from "./main/Github-activity";
 
 function App() {
   return (
     <>
-      <div className="w-screen min-h-screen relative ">
+      <div className="w-screen min-h-screen font-hanken relative bg-white text-black dark:bg-black dark:text-white">
         <div
           className={cn(
             "absolute inset-0",
             "[background-size:48px_50px]",
-            "[background-image:linear-gradient(to_right,#0a0a0a_1px,transparent_1px),linear-gradient(to_bottom,#0a0a0a_1px,transparent_1px)]",
-            "[background-image:linear-gradient(to_right,#27272a_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
+            // light grid
+            "bg-white [background-image:linear-gradient(to_right,#e5e5e5_1px,transparent_1px),linear-gradient(to_bottom,#e5e5e5_1px,transparent_1px)]",
+            // dark grid
+            "dark:bg-black dark:[background-image:linear-gradient(to_right,#27272a_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
           )}
         ></div>
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_1%,black)] "></div>
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white dark:bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_1%,black)] "></div>
         
-        <div className="bg-gradient-to-r  from-neutral-950 to-neutral-950 ">
+        <div className="bg-gradient-to-r from-white to-white dark:from-neutral-950 dark:to-neutral-950">
           <TracingBeam className="relative">
             {/* Navbar */}
+            <GithubActivity></GithubActivity>
             <div>
               <Nav />
             </div>
@@ -31,7 +36,7 @@ function App() {
               <SVGMaskEffectDemo />
             </div>
 
-            <div className="md:text-base  sm:text-sm max-w-xl  dark:font-medium text-left m-4 lg:mt-12 md:mt-8   text-gray-100 dark:text-black relative ml-10 md:ml-16 lg:ml-14 xl:ml-4 mt-0  text-xs">
+            <div className="md:text-base font-title sm:text-sm max-w-4xl text-left m-4 lg:mt-12 md:mt-8 text-gray-900 dark:text-gray-100 relative ml-10 md:ml-16 lg:ml-14 xl:ml-4 mt-0 text-xs">
               A passionate Full-Stack Developer and UI Designer. I specialize in
               creating responsive, user-friendly web applications with a strong
               focus on UI/UX design. Eager to apply my skills in real-world
