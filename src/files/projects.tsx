@@ -9,33 +9,32 @@ import icon8 from "../images/free.png";
 import docplatter from "../images/docplatter.png";
 import FadeInSection from "../components/ui/fadeInsection";
 import { PinContainer } from "../components/ui/3d-pin";
-import {  useState } from "react";
+import { useState } from "react";
 
 export const Grid = () => {
   const [activeTab , setActiveTab] = useState("personal");
-
+  
   return (
     <div className="">
-      <div className="uppercase md:text-5xl text-3xl dark:font-normal  font-bold md:m-20 m-10 text-center md:text-left dark:text-black text-blue-400 tracking-widest   relative   overflow-hidden ">
+      <div className="uppercase md:text-5xl text-3xl   font-bold md:my-20 mx-auto m-10 text-center   text-blue-400 tracking-widest   relative   overflow-hidden ">
         Projects
       </div>
       <div className="text-white text-center p-10 text-base">
         <div className="">
-        <button onClick={() => setActiveTab("personal")} className={`rounded-lg rounded-r-none  border-r-0 border px-10 py-1 ${activeTab === "personal" ? "py-[5px] bg-stone-900" : "py-[7px] p-1 "}` }>
+        <button onClick={() => setActiveTab("personal")} className={`rounded-lg rounded-r-none  border-r-0 border px-10 py-1 ${activeTab === "personal" ? "py-[5px] bg-stone-900 border-dashed"   : "py-[7px] p-1 "}` }>
        Personal Projects 
         </button>
-        <button  onClick={() => setActiveTab("client")}   className={`rounded-lg rounded-l-none  border-l-0 border  px-10 ${activeTab === "client" ? "p-1 bg-stone-900" : "p-2 "}`} >
+        <button  onClick={() => setActiveTab("client")}   className={`rounded-lg rounded-l-none  border-l-0 border px-10 ${activeTab === "client" ? "p-1 bg-stone-900 border-dashed" : "p-2 "}`} >
           Client   Projects
         </button>
         </div>
       </div>
       {activeTab === "personal" && (
-
         <div className="grid grid-cols-3  text-white  md:gap-16 ">
         <div className="col-span-2 border-white rounded-3xl   ">
           <PinContainer
             title="docplatter.com"
-            className=" md:w-[400px] lg:w-[90%] xl:w-[100%] w-[110%] xl:left-0  left-1/4 lg:left-20 relative  "
+            className="md:w-[400px] lg:w-[90%] xl:w-[100%] w-[110%] xl:left-0  left-1/4 lg:left-20 relative"
             href="https://docplatter-jatinmehta.vercel.app/"
             >
             <FadeInSection direction="left">
@@ -147,7 +146,7 @@ export const Grid = () => {
 
 export const Freelance = () => {
   return (
-    <div className="text-center text-white ">
+    <div className="text-center text-white h-full">
       <div className="grid grid-cols-3  text-white  md:gap-16 ">
         <div className="col-span-2 border-white rounded-3xl  ">
           <PinContainer
@@ -181,8 +180,6 @@ export const Freelance = () => {
           </div>
         </FadeInSection>
           </div>
-
-          
     </div>
   );
 };
