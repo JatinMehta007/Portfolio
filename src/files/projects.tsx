@@ -21,10 +21,10 @@ export const Grid = () => {
       </div>
       <div className="text-white text-center p-10 text-base">
         <div className="">
-        <button onClick={() => setActiveTab("personal")} className={`rounded-lg rounded-r-none  border-r-0 border px-10 py-1 ${activeTab === "personal" ? "py-[5px] bg-stone-900 border-dashed"   : "py-[7px] p-1 "}` }>
+        <button onClick={() => setActiveTab("personal")} className={`rounded-lg rounded-r-none  border-r-0 border px-10 py-1 ${activeTab === "personal" ? "py-[5px] dark:bg-stone-900 dark:text-white dark:border-white text-black border-black border-dashed "   : "py-[7px] p-1 dark:border-white border-black dark:text-white text-black"}` }>
        Personal Projects 
         </button>
-        <button  onClick={() => setActiveTab("client")}   className={`rounded-lg rounded-l-none  border-l-0 border px-10 ${activeTab === "client" ? "p-1 bg-stone-900 border-dashed" : "p-2 "}`} >
+        <button  onClick={() => setActiveTab("client")}   className={`rounded-lg rounded-l-none  border-l-0 border px-10 ${activeTab === "client" ? "p-1  dark:bg-stone-900 dark:text-white dark:border-white text-black border-black border-dashed" : "p-2 dark:border-white border-black dark:text-white text-black"}`} >
           Client   Projects
         </button>
         </div>
@@ -41,7 +41,7 @@ export const Grid = () => {
               <img
                 src={docplatter}
                 alt="Docplatter"
-                className="md:rounded-3xl rounded-lg transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000 border border-white "
+                className="md:rounded-3xl  rounded-lg transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000 border border-white "
                 />
             </FadeInSection>
           </PinContainer>
@@ -97,7 +97,7 @@ export const Grid = () => {
           <div className="border-white  rounded-3xl hidden md:block ">
             <PinContainer
               title="victor.com"
-              className="md:w-[200px] xl:w-[100%]  lg:w-[100%] relative hidden md:block md:right-10 lg:right-0"
+              className="md:w-[200px] xl:w-[100%] border border-gray-300 rounded-3xl lg:w-[100%] relative hidden md:block md:right-10 lg:right-0"
               href="https://victor-jatinmehta.vercel.app/"
               >
               <img
