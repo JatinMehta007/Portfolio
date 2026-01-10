@@ -5,9 +5,10 @@ import { InfiniteMovingCardsDemo } from "./main/moving-stack";
 import { cn } from "./lib/utils";
 import { IconBrandGithub, IconBrandTwitter, IconBrandLinkedin,IconMail,IconBrandNotion } from "@tabler/icons-react";
 import { TracingBeam } from "./components/ui/tracing-beam";
-// import { GitHubCalendar } from "react-github-calendar";
 import  GithubActivity  from "./main/Github-activity";
 import SmoothWrapper from "./components/ui/scroll";
+import { TooltipBubble } from "./components/ui/tooltip";
+import { Navbar2 } from "./files/navbars";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         
         <div className="bg-gradient-to-r from-white to-white dark:from-neutral-950 dark:to-neutral-950">
           <TracingBeam className="relative">
+            <Navbar2></Navbar2>
             {/* Navbar */}
             <GithubActivity></GithubActivity>
             <div>
@@ -62,23 +64,33 @@ function App() {
               <div className="flex justify-end gap-4 sm:gap-7 md:mr-8 lg:mr-0 cursor-pointer relative bottom-6">
                 <a href="https://twitter.com/JatinMehta35630" target="_blank"
                 rel="noopener noreferrer">
+                  <TooltipBubble label="Twitter">
                 <IconBrandTwitter className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5" ></IconBrandTwitter>
+                  </TooltipBubble>
                 </a>
                 <a href="https://www.linkedin.com/in/jatin-mehta-a70a0025a/" target="_blank"
                 rel="noopener noreferrer">
+                  <TooltipBubble label="Linkedin">
                 <IconBrandLinkedin className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5" ></IconBrandLinkedin>
+                  </TooltipBubble>
                 </a>
                 <a href="mailto:mehtajatin045@gmail.com" target="_blank"
                 rel="noopener noreferrer">
+                  <TooltipBubble label="mail">
                 <IconMail className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5"></IconMail>
+                  </TooltipBubble>
                 </a>
                 <a href="https://github.com/JatinMehta007" target="_blank"
                 rel="noopener noreferrer"> 
+                <TooltipBubble label="Github">
                 <IconBrandGithub className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5" ></IconBrandGithub>
+                </TooltipBubble>
                 </a>
                 <a href="https://www.notion.so/Jatin-Kumar-Mehta-110ba337e0ad80f78fc4dc0cd559e43d?source=copy_link" target="_blank"
                 rel="noopener noreferrer"> 
+                <TooltipBubble label="Notion">
                 <IconBrandNotion className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5" ></IconBrandNotion>
+                </TooltipBubble>
                 </a>
               </div>
                </div>
