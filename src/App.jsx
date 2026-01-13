@@ -8,12 +8,12 @@ import { TracingBeam } from "./components/ui/tracing-beam";
 import  GithubActivity  from "./main/Github-activity";
 import SmoothWrapper from "./components/ui/scroll";
 import { TooltipBubble } from "./components/ui/tooltip";
-import { Navbar2 } from "./files/navbars";
+// import { Navbar2 } from "./files/navbars";
 
 function App() {
+  
   return (
     <>
-
         <SmoothWrapper>
       <div className="w-screen min-h-screen font-hanken relative bg-white text-black dark:bg-black dark:text-white">
         <div
@@ -30,9 +30,11 @@ function App() {
         
         <div className="bg-gradient-to-r from-white to-white dark:from-neutral-950 dark:to-neutral-950">
           <TracingBeam className="relative">
-            <Navbar2></Navbar2>
             {/* Navbar */}
+            {/* <Navbar2></Navbar2> */}
+            <div className="pt-20">
             <GithubActivity></GithubActivity>
+            </div>
             <div>
               <Nav />
             </div>
