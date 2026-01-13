@@ -23,12 +23,12 @@ export const ThemeToggle = () => {
   return (
     <div
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-      className=" rounded-xl cursor-pointer flex items-center justify-center hover:bg-stone-200 dark:hover:bg-stone-800"
+      className=" rounded-xl cursor-pointer flex items-center justify-center "
     >
       {theme === "light" ? (
-        <IconSun size={22} className="text-zinc-700" />
+        <IconMoon size={22} className="text-zinc-700" />
       ) : (
-        <IconMoon size={22} className="text-zinc-100" />
+        <IconSun size={22} className="text-zinc-100" />
       )}
     </div>
   );
