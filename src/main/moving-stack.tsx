@@ -27,7 +27,7 @@ import stack24 from "../images/stack24.png";
 export function InfiniteMovingCardsDemo() {
   return (
     <div className="rounded-md lg:mt-32 bottom-80 lg:bottom-0 md:bottom-28 items-center justify-center relative overflow-hidden">
-      <p className="tracking-wider  text-center font-bold text-blue-400 text-4xl">
+      <p className="tracking-wider  text-center font-bold text-zinc-400 text-2xl [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_5px,_transparent_16px)_1] border p-2 w-[97%]">
         Tech Stack
       </p>
 
