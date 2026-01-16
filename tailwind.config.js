@@ -23,55 +23,59 @@ module.exports = {
         title:["Geist Mono" ,"sans-serif"],
         hanken: ["Hanken Grotesk", "sans-serif"]
       },
-keyframes: {
-  moveHorizontal: {
-  "0%": {
-  transform: "translateX(-50%) translateY(-10%)",
-  },
-  "50%": {
-  transform: "translateX(50%) translateY(10%)",
-  },
-  "100%": {
-  transform: "translateX(-50%) translateY(-10%)",
-  },
-  },
-  moveInCircle: {
-  "0%": {
-  transform: "rotate(0deg)",
-  },
-  "50%": {
-  transform: "rotate(180deg)",
-  },
-  "100%": {
-  transform: "rotate(360deg)",
-  },
-  },
-  moveVertical: {
-  "0%": {
-  transform: "translateY(-50%)",
-  },
-  "50%": {
-  transform: "translateY(50%)",
-  },
-  "100%": {
-  transform: "translateY(-50%)",
-  },
-  },
-  },
-  },
-  
-  animation: {
-    scroll:
-      "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
-  },
-  keyframes: {
-    scroll: {
-      to: {
-        transform: "translate(calc(-50% - 0.5rem))",
+      keyframes: {
+        moveHorizontal: {
+          "0%": {
+            transform: "translateX(-50%) translateY(-10%)",
+          },
+          "50%": {
+            transform: "translateX(50%) translateY(10%)",
+          },
+          "100%": {
+            transform: "translateX(-50%) translateY(-10%)",
+          },
+        },
+        moveInCircle: {
+          "0%": {
+            transform: "rotate(0deg)",
+          },
+          "50%": {
+            transform: "rotate(180deg)",
+          },
+          "100%": {
+            transform: "rotate(360deg)",
+          },
+        },
+        moveVertical: {
+          "0%": {
+            transform: "translateY(-50%)",
+          },
+          "50%": {
+            transform: "translateY(50%)",
+          },
+          "100%": {
+            transform: "translateY(-50%)",
+          },
+        },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
+        ping: {
+          "75%, 100%": {
+            transform: "scale(2)",
+            opacity: "0",
+          },
+        },
+      },
+      animation: {
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        ping: "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
       },
     },
   },
-    },
   
   plugins: [addVariablesForColors],
 };
