@@ -11,11 +11,9 @@ export function SVGMaskEffectDemo() {
       className="relative flex   overflow-hidden mt-5 sm:mt-0 ">
       
           <div
-            className=" dark:text-white text-black  p-4 sm:p-0 sm:text-5xl text-3xl  font-bold">
-         "Hi,👋 I'm Jatin —<FlipWords words={words}/>"
+            className=" dark:text-zinc-300 text-black  text-lg  ">
+          <FlipWords words={words}/>
           </div>
-        
-
           </div>
     </div>
   );
