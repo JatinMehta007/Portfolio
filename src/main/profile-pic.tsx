@@ -1,5 +1,5 @@
 "use client";
-import { IconLocation, IconMapPin } from "@tabler/icons-react";
+import { IconMapPin } from "@tabler/icons-react";
 import { AnimatedTooltip } from "../components/ui/profile";
 import { SVGMaskEffectDemo } from "./svg";
 
