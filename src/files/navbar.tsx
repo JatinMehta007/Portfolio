@@ -1,6 +1,5 @@
 
 import React from "react";
-import { ThemeToggle } from "../components/ui/theme";
 import { ProfilePic } from "../main/profile-pic";
 import {
   IconBrandGithub,
@@ -10,7 +9,7 @@ import {
 
 export const Nav = () => {
   return (
-    <div className="flex">
+    <div className="flex ">
       <div className="absolute ">
         <ProfilePic />
       </div>
@@ -50,9 +49,6 @@ export const Nav = () => {
               className=""
             />
           </a>
-        </div>
-        <div className="p-3 rounded-xl relative hover:bg-stone-200 dark:hover:bg-stone-800">
-          <ThemeToggle />
         </div>
       </div>
     </div>
