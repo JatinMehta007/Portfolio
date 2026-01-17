@@ -16,4 +16,15 @@ html, body {
   min-height: 100vh;
 }
 
-  
+.decorative-lines {
+  background-color: var(--gray-a2); /* Light gray background */
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    var(--gray-a4) 8px,
+    var(--gray-a4) 11px
+  );
+  border: 1px solid var(--gray-a5);
+  border-radius: var(--radius-3);
+}
