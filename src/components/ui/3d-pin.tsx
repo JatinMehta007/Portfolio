@@ -66,7 +66,7 @@ export const PinPerspective = ({
 }) => {
   return (
     <motion.div
-      className="pointer-events-none w-full h-80 invisible md:visible flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500"
+      className="pointer-events-none w-full h-52 invisible md:visible flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500"
     >
       <div className="w-full h-full -mt-7 relative">
         {/* Title Badge */}
@@ -107,8 +107,8 @@ export const PinPerspective = ({
 
         {/* Vertical beam + Dot */}
         <>
-          <motion.div className="absolute right-1/2 bottom-1/2 bg-gradient-to-b from-transparent to-cyan-500 translate-y-[14px] w-px h-20 group-hover/pin:h-40 blur-[2px]" />
-          <motion.div className="absolute right-1/2 bottom-1/2 bg-gradient-to-b from-transparent to-cyan-500 translate-y-[14px] w-px h-20 group-hover/pin:h-40" />
+          <motion.div className="absolute right-1/2 bottom-1/2 bg-gradient-to-b from-transparent to-cyan-500 translate-y-[14px] w-px h-20 group-hover/pin:h-28 blur-[2px]" />
+          <motion.div className="absolute right-1/2 bottom-1/2 bg-gradient-to-b from-transparent to-cyan-500 translate-y-[14px] w-px h-20 group-hover/pin:h-28" />
           <motion.div className="absolute right-1/2 translate-x-[1.5px] bottom-1/2 bg-cyan-600 translate-y-[14px] w-[4px] h-[4px] rounded-full z-40 blur-[3px]" />
           <motion.div className="absolute right-1/2 translate-x-[0.5px] bottom-1/2 bg-cyan-300 translate-y-[14px] w-[2px] h-[2px] rounded-full z-40" />
         </>
