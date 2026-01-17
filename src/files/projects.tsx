@@ -1,16 +1,10 @@
-import icon1 from "../images/icon1.png";
-import icon2 from "../images/icon2.png";
-import icon3 from "../images/icon3.png";
-import icon4 from "../images/icon4.png";
-import icon5 from "../images/doc-mobile.png";
-import icon6 from "../images/devtoolbox.png";
+
 import icon7 from "../images/freelance.png";
 import icon8 from "../images/free.png";
-import docplatter from "../images/docplatter.png";
 import FadeInSection from "../components/ui/fadeInsection";
 import { PinContainer } from "../components/ui/3d-pin";
 import { useState } from "react";
-import { About } from "./about";
+import { ProjectDetails } from "./project-details";
 
 export const Grid = () => {
   const [activeTab , setActiveTab] = useState("personal");
@@ -31,9 +25,9 @@ export const Grid = () => {
         </div>
       </div>
       {activeTab === "personal" && (
-<About></About>
+      <ProjectDetails></ProjectDetails>
       )}
-      {activeTab === "client" && <Freelance />}
+      {activeTab === "client" && <Freelance  />}
     </div>
   );
 };
@@ -41,7 +35,7 @@ export const Grid = () => {
 
 export const Freelance = () => {
   return (
-    <div className="text-center text-white h-full">
+    <div className="text-center   text-white h-[420px]">
       <div className="grid grid-cols-3  text-white  md:gap-16 ">
         <div className="col-span-2 border-white rounded-3xl  ">
           <PinContainer
