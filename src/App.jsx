@@ -2,19 +2,18 @@ import { Nav } from "./files/navbar";
 import { Grid } from "./files/projects";
 import { InfiniteMovingCardsDemo } from "./main/moving-stack";
 import { cn } from "./lib/utils";
-import {
-  IconBrandGithub,
-  IconBrandTwitter,
-  IconBrandLinkedin,
-  IconMail,
-  IconBrandNotion,
-} from "@tabler/icons-react";
 import { TracingBeam } from "./components/ui/tracing-beam";
 import GithubActivity from "./main/Github-activity";
 import SmoothWrapper from "./components/ui/scroll";
 import { TooltipBubble } from "./components/ui/tooltip";
 import MyDemo from "./components/ui/decorative-box";
-
+import {
+  RiGithubFill,
+  RiLinkedinFill,
+  RiMailFill,
+  RiNotionFill,
+  RiTwitterXLine,
+} from "@remixicon/react";
 
 function App() {
   return (
@@ -35,9 +34,16 @@ function App() {
 
           <div className="bg-gradient-to-r w-[60%] from-white to-white dark:from-neutral-950 dark:to-neutral-950">
             <TracingBeam className="relative">
+
+              {/* {Quote} */}
               <div className="pt-20">
-              <MyDemo></MyDemo>
+              <MyDemo><p className="text-center text-xl font-achivo dark:text-zinc-500   italic">
+              " Karmanye Vadhikaraste "
+              </p>
+              </MyDemo>
               </div>
+
+              {/* {Navbar} */}
               <div>
                 <Nav />
               </div>
@@ -50,6 +56,7 @@ function App() {
                 opportunities where I can contribute to impactful projects, grow
                 as a developer, and learn from industry professionals.
               </div>
+            <GithubActivity></GithubActivity>
               {/* Projects */}
               <div>
                 <Grid />
@@ -59,24 +66,31 @@ function App() {
                 <InfiniteMovingCardsDemo />
               </div>
 
-            <div class="border border-dashed mt-20 rounded-xl p-6">
-          <h3 class="text-lg font-medium mb-4">GitHub Sponsors</h3>
-
-          <div class="flex flex-col gap-3 items-center mt-20 justify-center text-center text-gray-500 dark:text-gray-400">
+            {/* {Sponsors} */}
+          <h3 class="text-xl font-medium mt-20 [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 text-center">Sponsors</h3>
+            <div class="  rounded-xl mt-4 [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 bg-white dark:bg-black  ">
+          <div class="flex flex-col gap-3 items-center  justify-center text-center text-gray-500 dark:text-gray-400">
             <p>No sponsors yet</p>
             <a
               href="https://github.com/sponsors/JatinMehta007"
               target="_blank"
-              class="px-3 py-1.5 rounded-md border border-gray-600 hover:bg-gray-800 transition text-sm"
+              class="px-3 py-1.5 rounded-md border border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition text-sm"
               >
               Be the first sponsor 💜
             </a>
           </div>
          </div>
+              
+              {/* {Quote} */}
+              <div className="pt-20">
+              <MyDemo><p className="text-center text-xl font-achivo dark:text-zinc-500   italic">
+              "Focus on your work, not the outcome"
+              </p>
+              <p className="text-center text-base font-achivo dark:text-zinc-500">— LORD KRISHNA —</p>
+              </MyDemo>
+              </div>
 
-         <GithubActivity></GithubActivity>
-         
-              {/* <Contact/> */}
+              {/* Footer */}
               <hr className=" border-1 border-slate-800 mt-10 md:ml-20 xl:ml-0 lg:ml-16 md:mr-14 lg:mr-0 relative bottom-80 lg:bottom-0 md:bottom-28 w-[350px]  mx-auto md:w-[85%] lg:w-[92%] xl:w-full " />
               <div className=" text-zinc-500  p-5 relative bottom-80 lg:bottom-0 md:bottom-28">
                 <p className="md:px-24 lg:px-16 xl:px-0 px-2 font-light text-xs sm:text-sm">
@@ -89,7 +103,7 @@ function App() {
                     rel="noopener noreferrer"
                     >
                     <TooltipBubble label="Twitter">
-                      <IconBrandTwitter className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5"></IconBrandTwitter>
+                      <RiTwitterXLine className=" dark:text-zinc-400 dark:hover:text-zinc-300 w-4 sm:w-5"></RiTwitterXLine>
                     </TooltipBubble>
                   </a>
                   <a
@@ -98,7 +112,7 @@ function App() {
                     rel="noopener noreferrer"
                     >
                     <TooltipBubble label="Linkedin">
-                      <IconBrandLinkedin className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5"></IconBrandLinkedin>
+                      <RiLinkedinFill className=" dark:text-zinc-400 dark:hover:text-zinc-300 w-4 sm:w-5"></RiLinkedinFill>
                     </TooltipBubble>
                   </a>
                   <a
@@ -107,7 +121,7 @@ function App() {
                     rel="noopener noreferrer"
                     >
                     <TooltipBubble label="mail">
-                      <IconMail className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5"></IconMail>
+                      <RiMailFill className=" dark:text-zinc-400 dark:hover:text-zinc-300 w-4 sm:w-5"></RiMailFill>
                     </TooltipBubble>
                   </a>
                   <a
@@ -116,7 +130,7 @@ function App() {
                     rel="noopener noreferrer"
                     >
                     <TooltipBubble label="Github">
-                      <IconBrandGithub className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5"></IconBrandGithub>
+                      <RiGithubFill className=" dark:text-zinc-400 dark:hover:text-zinc-300 w-4 sm:w-5"></RiGithubFill>
                     </TooltipBubble>
                   </a>
                   <a
@@ -125,7 +139,7 @@ function App() {
                     rel="noopener noreferrer"
                     >
                     <TooltipBubble label="Notion">
-                      <IconBrandNotion className="text-zinc-500 hover:text-zinc-300 w-4 sm:w-5"></IconBrandNotion>
+                      <RiNotionFill className= " dark:text-zinc-400 dark:hover:text-zinc-300 w-4 sm:w-5"></RiNotionFill>
                     </TooltipBubble>
                   </a>
                 </div>
