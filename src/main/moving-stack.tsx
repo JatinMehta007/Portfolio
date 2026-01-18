@@ -30,7 +30,7 @@ export function InfiniteMovingCardsDemo() {
       <p className="tracking-wider  text-center font-bold text-zinc-400 text-2xl [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_5px,_transparent_16px)_1] border p-2 w-[97%]">
         Tech Stack
       </p>
-      <div className="mt-14 hover:cursor-pointer">
+      <div className="mt-16 hover:cursor-pointer">
         <div className="flex flex-wrap justify-center gap-20 group">
           {testimonials.map((item, index) => (
             <div
