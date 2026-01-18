@@ -10,11 +10,12 @@ export function Navbar2() {
          dark:bg-black/20
         backdrop-blur-xl 
       ">
-        <img src="https://i.postimg.cc/DwwNdbQD/avatar.jpg" alt="avatar" className="rounded-full w-12 h-12" />
+        <a href="/">
+        <img src="https://i.postimg.cc/DwwNdbQD/avatar.jpg" alt="avatar" className="rounded-full w-12 h-12 cursor-pointer" />
+        </a>
   
         <div className="flex font-title gap-10 dark:text-white text-black ">
           <a>About</a>
-          <a href="/about" >Projects</a>
           <a href="/contact">Contact me</a>
           <ThemeToggle></ThemeToggle>
         </div>
