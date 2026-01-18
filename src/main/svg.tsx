@@ -1,7 +1,6 @@
 "use client";
 import { FlipWords } from "../components/ui/flipword";
 
-
 export function SVGMaskEffectDemo() {
   const words = ["Full stack developer" , "coder" , "Freelancer"]
   return (
