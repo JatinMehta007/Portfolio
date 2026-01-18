@@ -11,7 +11,7 @@ export const Grid = () => {
   
   return (
     <div className="">
-      <div className="uppercase md:text-2xl text-3xl   font-bold md:my-20 mx-auto text-center   text-zinc-300 tracking-widest   relative  overflow-hidden [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_5px,_transparent_16px)_1] border p-2 w-[97%]">
+      <div className="uppercase md:text-2xl text-3xl   font-bold md:my-20 mx-auto text-center   text-zinc-400 tracking-widest   relative  overflow-hidden [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_5px,_transparent_16px)_1] border p-2 w-[97%]">
         Projects
       </div>
       <div className="text-white text-center p-10 text-base">
