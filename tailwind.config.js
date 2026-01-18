@@ -21,7 +21,8 @@ module.exports = {
     extend: {
       fontFamily:{
         title:["Geist Mono" ,"sans-serif"],
-        hanken: ["Hanken Grotesk", "sans-serif"]
+        hanken: ["Hanken Grotesk", "sans-serif"],
+        achivo: ["Archivo Black", "sans-serif"]
       },
       keyframes: {
         moveHorizontal: {
