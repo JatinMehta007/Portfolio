@@ -1,11 +1,11 @@
-
 import React from "react";
 import { ProfilePic } from "../main/profile-pic";
 import {
-  IconBrandGithub,
-  IconBrandTwitter,
-  IconBrandLinkedin,
-} from "@tabler/icons-react";
+  RiGithubFill,
+  RiLinkedinFill,
+  RiNotionFill,
+  RiTwitterXLine,
+} from "@remixicon/react";
 
 export const Nav = () => {
   return (
@@ -20,10 +20,7 @@ export const Nav = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconBrandTwitter
-              size={24}
-              className=""
-            />
+            <RiTwitterXLine size={24} className="dark:text-zinc-200" />
           </a>
         </div>
         <div className="p-3 rounded-xl relative sm:right-6 hover:bg-stone-200 dark:hover:bg-stone-800">
@@ -32,10 +29,7 @@ export const Nav = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconBrandLinkedin
-              size={24}
-              className=""
-            />
+            <RiLinkedinFill size={24} className="dark:text-zinc-200" />
           </a>
         </div>
         <div className="p-3 right-3 rounded-xl relative hover:bg-stone-200 dark:hover:bg-stone-800">
@@ -44,10 +38,17 @@ export const Nav = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconBrandGithub
-              size={24}
-              className=""
-            />
+            <RiGithubFill className="dark:text-zinc-200" size={24} />
+          </a>
+        </div>
+
+        <div className="p-3  rounded-xl relative hover:bg-stone-200 dark:hover:bg-stone-800">
+          <a
+            href="https://github.com/JatinMehta007/Portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <RiNotionFill className="dark:text-zinc-200" size={24}></RiNotionFill>
           </a>
         </div>
       </div>
