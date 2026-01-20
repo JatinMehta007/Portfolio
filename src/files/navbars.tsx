@@ -15,7 +15,6 @@ export function Navbar2() {
         </a>
   
         <div className="flex font-title gap-10 dark:text-white text-black ">
-          <a>About</a>
           <a href="/contact">Contact me</a>
           <ThemeToggle></ThemeToggle>
         </div>
