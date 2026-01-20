@@ -3,79 +3,166 @@ import { IconWorld } from "@tabler/icons-react";
 import reactLogo from "../images/stack1.png";
 import tailwind from "../images/stack2.png";
 import accertinity from "../images/stack18.png";
+import nodejs from "../images/stack3.png";
+import express from "../images/stack4.png";
+import prisma from "../images/stack24.png";
+import typescript from "../images/stack11.png";
+import html from "../images/stack9.png";
+import CSS from "../images/stack10.png";
 import { PinContainer } from "../components/ui/3d-pin";
 import { RiGithubFill } from "@remixicon/react";
-
+ 
 export function ProjectDetails() {
   const [showAll, setShowAll] = useState(false);
 
   const projects = [
     {
-      img: "./dev.png",
-      title: "DevToolBox",
-      desc: "For tech logos, icons, color palettes or even AI-powered developer tools — DevToolbox has it all, right at your fingertips.",
-      pinTitle:"devtoolbox.com",
-      pinLink : "https://dev-tool-box-jatin.vercel.app/",
+      img: "./coming.png",
+      img1: "./bg1.jpg",
+      title: "Jame",
+      status: "building",
+      alt:"Jame",
+      pinTitle: "Jame.com",
+      desc: "A Payment website.......",
       stack: [reactLogo, tailwind, accertinity],
     },
     {
-      img: "./docplatter.png",
-      title: "DocPlatter",
-      desc: "For tech logos, icons, color palettes or even AI-powered developer tools — DevToolbox has it all, right at your fingertips.",
-      pinTitle:"docplatter.com",
-      pinLink:"https://docplatter-jatinmehta.vercel.app/", 
+      img: "./dev1.png",
+      img1: "./bg.png",
+      title: "DevToolBox",
+      status: "live",
+      alt:"DevToolBox",
+      desc: "For tech logos, icons, color palettes or even AI-powered developer tools — DevToolbox has it all, right at your fingertips....",
+      pinTitle: "devtoolbox.com",
+      pinLink: "https://dev-tool-box-jatin.vercel.app/",
       stack: [reactLogo, tailwind, accertinity],
+    },
+    {
+      img: "./decplatter.png",
+      img1: "./bg1.jpg",
+      title: "DocPlatter",
+      status: "live",
+      alt:"Docplatter",
+      desc: "Is a simple yet powerful patient meal management system. It allows managers to register patients and assign meals....",
+      pinTitle: "docplatter.com",
+      pinLink: "https://docplatter-jatinmehta.vercel.app/",
+      stack: [reactLogo, tailwind, accertinity, nodejs, express, prisma],
     },
     {
       img: "./victor.png",
+      img1: "./bg2.jpg",
       title: "Victor Blog",
-      desc: "For tech logos, icons, color palettes or even AI-powered developer tools — DevToolbox has it all, right at your fingertips.",
-      pinTitle : "victor.com",
-      pinLink : "https://victor-jatinmehta.vercel.app/",
-      stack: [reactLogo, tailwind, accertinity],
+      status: "live",
+      alt:"Victor",
+      desc: "Where Words Build Worlds - a platform designed for the passionate storyteller. Is a powerful and user-friendly blogging....",
+      pinTitle: "victor.com",
+      pinLink: "https://victor-jatinmehta.vercel.app/",
+      stack: [reactLogo, tailwind, accertinity, typescript, prisma],
     },
     {
       img: "./freelance.png",
+      img1: "./bg3.jpg",
       title: "Freelance Portfolio",
-      desc: "For tech logos, icons, color palettes or even AI-powered developer tools — DevToolbox has it all, right at your fingertips.",
+      status: "live",
+      alt:"Gemstone",
+      desc: "A visually rich and responsive gemstone showcase website that allows users to explore a curated collection.......",
       pinTitle: "gemstone.com",
-      pinLink : "https://freelance-project-demo.vercel.app/",
+      pinLink: "https://freelance-project-demo.vercel.app/",
       stack: [reactLogo, tailwind, accertinity],
     },
     {
-      img: "./dev.png",
-      title: "Project 5",
-      desc: "For tech logos, icons, color palettes or even AI-powered developer tools — DevToolbox has it all, right at your fingertips.",
+      img: "./alabay.png",
+      img1: "./bg4.jpg",
+      title: "Alabay",
+      status: "live",
+      alt:"Alabay",
+      pinTitle: "alabay.com",
+      pinLink : "https://alabayjatinmehta-jatins-projects-a1a570d0.vercel.app/",
+      desc: "For tech logos, icons, color palettes or even AI-powered developer tools — DevToolbox has it all, right at your fingertips......",
       stack: [reactLogo, tailwind, accertinity],
     },
     {
-      img: "./dev.png",
-      title: "Project 6",
-      desc: "For tech logos, icons, color palettes or even AI-powered developer tools — DevToolbox has it all, right at your fingertips.",
+      img: "./github.png",
+      img1: "./bg1.jpg",
+      title: "Github Activity Viewer",
+      status: "live",
+      alt:"Github Activity Viewer",
+      pinTitle: "Repo.com",
+      pinLink : "https://repo-jatinmehta.vercel.app/",
+      desc: "A React + TypeScript application that takes a GitHub username and shows: A list of their public repositories An advanced daily commit....",
       stack: [reactLogo, tailwind, accertinity],
+    },
+    {
+      img: "./royal.png",
+      img1: "./bg4.jpg",
+      title: "Royal Enfield Clone",
+      status: "live",
+      alt:"Royal Enfield",
+      pinTitle: "Royal.com",
+      pinLink : "https://royal-enfield-jatin.vercel.app/",
+      desc: "In my First Year I built A beautifully designed static website inspired by Royal Enfield motorcycles....",
+      stack:[html, CSS],
+    }, {
+      img: "./amazon.png",
+      img1: "./bg2.jpg",
+      title: "Amazon Clone",
+      status: "live",
+      alt:"Amazon",
+      pinTitle: "amazon.com",
+      pinLink : "https://jatinmehta007.github.io/Amazon-Clone/",
+      desc: "As we all start to code by creating the first clone which is Amazon Clone....",
+      stack: [html, CSS],
+    },
+    {
+      img: "./ixigo.png",
+      img1: "./bg3.jpg",
+      title: "Ixigo Clone",
+      status: "live",
+      alt:"Ixigo",
+      pinTitle: "ixigo.com",
+      pinLink : "https://jatinmehta007.github.io/IXIGO-TRAIN-APP-CLONE/",
+      desc: "In my First Year I designed the Ixigo Train website clone....",
+      stack: [html,CSS],
     },
   ];
 
   const visibleProjects = showAll ? projects : projects.slice(0, 4);
 
   return (
-    <div className=" font-hanken bg-white text-black dark:bg-black dark:text-white">
+    <div className=" font-hanke text-black dark:text-white">
       <div className="bg-gradient-to-r from-white to-white dark:from-neutral-950 dark:to-neutral-950">
         <div className=" gap-10 w-full grid grid-cols-2  ">
           {visibleProjects.map((p, i) => (
-            <div key={i} className="dark:bg-black bg-white [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_5px,_transparent_16px)_1] border p-3">
-              <PinContainer
-            title={p.pinTitle}
-            className=" md:w-[400px] lg:w-[90%] xl:w-[100%]  w-[110%] xl:left-0  left-1/4 lg:left-20 relative  "
-            href={p.pinLink}
-            >
-              <img src={p.img} alt="" className=" transition ease-in-out delay-150 hover:translate-x-1 hover:scale-95 duration-1000" />
-            </PinContainer>
+            <div key={i} className= "group dark:bg-black bg-white [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_5px,_transparent_16px)_1] border p-3">
+              <div className="dark:bg-neutral-900 bg-neutral-200 border-2 border-double rounded-lg  border-zinc-700  overflow-hidden">
+                <PinContainer
+                  title={p.pinTitle}
+                  className="md:w-[400px]  lg:w-[90%] xl:w-[100%] w-[110%] xl:left-0 left-1/4 lg:left-20 relative group "
+                  href={p.pinLink}
+                >
+                  {/* background image */}
+                  <img
+                    src={p.img1}
+                    className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                    alt=""
+                  />
+
+                  {/* front image */}
+                  <div className="p-10">
+                    <img
+                      src={p.img}
+                      className="relative dark:border-zinc-600 border rounded-lg  transition  ease-in-out delay-150 group-hover:translate-y-3  duration-100"
+                      alt={p.alt}
+                    />
+                  </div>
+                </PinContainer>
+              </div>
+
               <div className="flex justify-between px-3 mt-2">
                 <p>{p.title}</p>
                 <div className="flex gap-7">
-                  <RiGithubFill  />
-                  <IconWorld className="text-slate-700" />
+                  <RiGithubFill />
+                  <IconWorld className="dark:text-slate-300" />
                 </div>
               </div>
               <div className="font-title text-justify text-zinc-400 text-sm mt-5 px-3">
@@ -83,41 +170,42 @@ export function ProjectDetails() {
               </div>
               <div className="flex justify-between items-center mt-5 px-3">
                 <div className="flex gap-2">
-                {p.stack.map((s, idx) => (
-                  <img key={idx} src={s} alt="stack" className="h-7" />
-                ))}
+                  {p.stack.map((s, idx) => (
+                    <img key={idx} src={s} alt="stack" className="h-7" />
+                  ))}
                 </div>
 
                 <div className="flex items-center justify-end gap-2 ">
-              <div className="relative flex items-center justify-center">
-                {/* <!-- ping ring --> */}
-                <div className="absolute inline-flex h-3 w-3 rounded-full bg-green-400 opacity-75 animate-ping"></div>
+                  <div className="relative flex items-center justify-center">
+                    {/* <!-- ping ring --> */}
+                    <div className={`absolute inline-flex h-3 w-3 rounded-full opacity-75 animate-ping ${p.status === "live" ? "bg-green-400" : "bg-red-400"}`}></div>
 
-                {/* <!-- inner dot --> */}
-                <div className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></div>
+                    {/* <!-- inner dot --> */}
+                    <div className={`relative inline-flex h-2 w-2 rounded-full ${p.status === "live" ? "bg-green-500" : "bg-red-500"}`}></div>
+                  </div>
+
+                  <p className="text-sm text-gray-500 dark:text-gray-300 font-medium">
+                    {p.status === "live" ? "Live" : "Building"}
+                  </p>
+                </div>
               </div>
 
-              <p className="text-sm text-gray-500 dark:text-gray-300 font-medium">
-                Live
-              </p>
-              </div>
-            </div>
-              
+
             </div>
           ))}
         </div>
 
       </div>
-        {projects.length > 4 && (
-          <div className="flex justify-center mt-6">
-            <button
-              onClick={() => setShowAll(!showAll)}
-              className="px-4 py-2 border border-gray-600 rounded-md text-sm hover:bg-gray-200 dark:hover:bg-gray-800 transition"
-            >
-              {showAll ? "Show Less" : "Load More"}
-            </button>
-          </div>
-        )}
+      {projects.length > 4 && (
+        <div className="flex justify-center mt-6">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="px-4 py-2 border bg-neutral-700 text-white dark:text-black font-bold border-white dark:border-gray-600 dark:bg-neutral-300 rounded-lg text-sm hover:bg-neutral-600 dark:hover:bg-neutral-100 transition outline-double outline-2 dark:outline-white outline-black"
+          >
+            {showAll ? "Show Less" : "Load More"}
+          </button>
+        </div>
+      )}
     </div>
   );
 }
