@@ -34,6 +34,7 @@ export function ProjectDetails() {
       alt:"DevToolBox",
       desc: "For tech logos, icons, color palettes or even AI-powered developer tools — DevToolbox has it all, right at your fingertips....",
       pinTitle: "devtoolbox.com",
+      github_Link : "https://github.com/JatinMehta007/DevToolBox",
       pinLink: "https://dev-tool-box-jatin.vercel.app/",
       stack: [reactLogo, tailwind, accertinity],
     },
@@ -43,6 +44,7 @@ export function ProjectDetails() {
       title: "DocPlatter",
       status: "live",
       alt:"Docplatter",
+      github_Link: "https://github.com/JatinMehta007/DocPlatter",
       desc: "Is a simple yet powerful patient meal management system. It allows managers to register patients and assign meals....",
       pinTitle: "docplatter.com",
       pinLink: "https://docplatter-jatinmehta.vercel.app/",
@@ -56,6 +58,7 @@ export function ProjectDetails() {
       alt:"Victor",
       desc: "Where Words Build Worlds - a platform designed for the passionate storyteller. Is a powerful and user-friendly blogging....",
       pinTitle: "victor.com",
+      github_Link: "https://github.com/JatinMehta007/Victor",
       pinLink: "https://victor-jatinmehta.vercel.app/",
       stack: [reactLogo, tailwind, accertinity, typescript, prisma],
     },
@@ -67,6 +70,7 @@ export function ProjectDetails() {
       alt:"Gemstone",
       desc: "A visually rich and responsive gemstone showcase website that allows users to explore a curated collection.......",
       pinTitle: "gemstone.com",
+      github_Link: "https://github.com/JatinMehta007/Freelance-project",
       pinLink: "https://freelance-project-demo.vercel.app/",
       stack: [reactLogo, tailwind, accertinity],
     },
@@ -77,6 +81,7 @@ export function ProjectDetails() {
       status: "live",
       alt:"Alabay",
       pinTitle: "alabay.com",
+      github_Link: "https://github.com/JatinMehta007/Alabay",
       pinLink : "https://alabayjatinmehta-jatins-projects-a1a570d0.vercel.app/",
       desc: "For tech logos, icons, color palettes or even AI-powered developer tools — DevToolbox has it all, right at your fingertips......",
       stack: [reactLogo, tailwind, accertinity],
@@ -88,6 +93,7 @@ export function ProjectDetails() {
       status: "live",
       alt:"Github Activity Viewer",
       pinTitle: "Repo.com",
+      github_Link: "https://github.com/JatinMehta007/Github_repo_viewer",
       pinLink : "https://repo-jatinmehta.vercel.app/",
       desc: "A React + TypeScript application that takes a GitHub username and shows: A list of their public repositories An advanced daily commit....",
       stack: [reactLogo, tailwind, accertinity],
@@ -99,6 +105,7 @@ export function ProjectDetails() {
       status: "live",
       alt:"Royal Enfield",
       pinTitle: "Royal.com",
+      github_Link: "https://github.com/JatinMehta007/Royal",
       pinLink : "https://royal-enfield-jatin.vercel.app/",
       desc: "In my First Year I built A beautifully designed static website inspired by Royal Enfield motorcycles....",
       stack:[html, CSS],
@@ -109,6 +116,7 @@ export function ProjectDetails() {
       status: "live",
       alt:"Amazon",
       pinTitle: "amazon.com",
+      github_Link: "https://github.com/JatinMehta007/Amazon-Clone",
       pinLink : "https://jatinmehta007.github.io/Amazon-Clone/",
       desc: "As we all start to code by creating the first clone which is Amazon Clone....",
       stack: [html, CSS],
@@ -120,6 +128,7 @@ export function ProjectDetails() {
       status: "live",
       alt:"Ixigo",
       pinTitle: "ixigo.com",
+      github_Link: "https://github.com/JatinMehta007/IXIGO-TRAIN-APP-CLONE",
       pinLink : "https://jatinmehta007.github.io/IXIGO-TRAIN-APP-CLONE/",
       desc: "In my First Year I designed the Ixigo Train website clone....",
       stack: [html,CSS],
@@ -161,8 +170,12 @@ export function ProjectDetails() {
               <div className="flex justify-between px-3 mt-2">
                 <p>{p.title}</p>
                 <div className="flex gap-7">
-                  <RiGithubFill />
-                  <IconWorld className="dark:text-slate-300" />
+                  <a href={p.github_Link} target="_blank" rel="noopener noreferrer">
+                  <RiGithubFill className="hover:text-zinc-600"/>
+                  </a>
+                  <a href={p.pinLink}>
+                  <IconWorld className="dark:text-slate-300 hover:text-zinc-500 dark:hover:text-zinc-600" />
+                  </a>
                 </div>
               </div>
               <div className="font-title text-justify text-zinc-400 text-sm mt-5 px-3">
