@@ -48,7 +48,7 @@ function App() {
                 <Nav />
               </div>
 
-              <div className="md:text-base font-title sm:text-sm max-w-4xl text-left m-4 lg:mt-12 md:mt-8 text-gray-900 dark:text-gray-300 relative ml-10 md:ml-16 lg:ml-14 xl:ml-4 mt-0 text-xs dark:bg-black [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2">
+              <div className="md:text-base w-full font-title sm:text-sm  text-left m-4 lg:mt-12 md:mt-8 text-gray-900 dark:text-gray-300 relative ml-10 md:ml-16 lg:ml-14 xl:ml-0 mt-0 text-xs dark:bg-black [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2">
                 A passionate Full-Stack Developer and UI Designer. I specialize
                 in creating responsive, user-friendly web applications with a
                 strong focus on UI/UX design. Eager to apply my skills in
@@ -56,7 +56,31 @@ function App() {
                 opportunities where I can contribute to impactful projects, grow
                 as a developer, and learn from industry professionals.
               </div>
+
+              <div className="flex gap-5">
+              <a
+                    href="mailto:mehtajatin045@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+              <button className="flex gap-1 dark:hover:bg-zinc-800 border hover:bg-zinc-200 border-double dark:border-zinc-400 border-black p-2 text-sm">
+                <RiMailFill size={22}></RiMailFill>
+                Send an email
+              </button>
+              </a>
+              <a
+                    href="mailto:mehtajatin045@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+              <div className="flex gap-1 dark:hover:bg-zinc-800 hover:bg-zinc-200 border border-double dark:border-zinc-400 border-black p-2 text-sm">
+                Hire me
+              </div>
+              </a>              
+              </div>
             <GithubActivity></GithubActivity>
+           
+           
               {/* Projects */}
               <div>
                 <Grid />
