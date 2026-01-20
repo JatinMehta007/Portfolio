@@ -68,7 +68,7 @@ export const PinPerspective = ({
     <motion.div
       className="pointer-events-none w-full h-52 invisible md:visible flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500"
     >
-      <div className="w-full h-full -mt-7 relative">
+      <div className="w-full h-full -mt-2 relative">
         {/* Title Badge */}
         {title && (
           <div className="flex justify-center items-center">
