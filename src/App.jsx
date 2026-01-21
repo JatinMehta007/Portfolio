@@ -32,11 +32,11 @@ function App() {
             ></div>
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white dark:bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_1%,black)] "></div>
 
-          <div className="bg-gradient-to-r w-[60%] from-white to-white dark:from-neutral-950 dark:to-neutral-950">
+          <div className="bg-gradient-to-r w-full lg:w-[60%] from-white to-white dark:from-neutral-950 dark:to-neutral-950">
             <TracingBeam className="relative">
 
               {/* {Quote} */}
-              <div className="pt-20">
+              <div className="pt-20 lg:pt-20 p-5 lg:p-0 ">
               <MyDemo><p className="text-center text-xl font-achivo dark:text-zinc-500   italic">
               " Karmanye Vadhikaraste "
               </p>
@@ -48,16 +48,15 @@ function App() {
                 <Nav />
               </div>
 
-              <div className="md:text-base w-full font-title sm:text-sm  text-left m-4 lg:mt-12 md:mt-8 text-gray-900 dark:text-gray-300 relative ml-10 md:ml-16 lg:ml-14 xl:ml-0 mt-0 text-xs dark:bg-black [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2">
-                A passionate Full-Stack Developer and UI Designer. I specialize
-                in creating responsive, user-friendly web applications with a
+              <div className="md:text-base  font-title sm:text-sm m-5 lg:m-0   lg:mt-12 md:mt-8 text-gray-900 dark:text-gray-300 relative  lg:ml-14 xl:ml-0 mt-0 text-xs dark:bg-black [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2">
+                A passionate Full-Stack Developer and UI Designer. I specialize in creating responsive, user-friendly web applications with a
                 strong focus on UI/UX design. Eager to apply my skills in
                 real-world scenarios, I’m actively seeking internship
                 opportunities where I can contribute to impactful projects, grow
                 as a developer, and learn from industry professionals.
               </div>
 
-              <div className="flex gap-5">
+              <div className="flex gap-5 ml-5 mt-5 sm:ml-0">
               <a
                     href="mailto:mehtajatin045@gmail.com"
                     target="_blank"
@@ -91,8 +90,8 @@ function App() {
               </div>
 
             {/* {Sponsors} */}
-          <h3 class="text-xl font-medium mt-20 [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 text-center">Sponsors</h3>
-            <div class="  rounded-xl mt-4 [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 bg-white dark:bg-black  ">
+          <h3 class="text-xl font-medium mt-20 m-5 sm:mt-20 sm:m-0 [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 text-center">Sponsors</h3>
+            <div class="  rounded-xl mt-4 m-5 sm:m-0 sm:mt-4 [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 bg-white dark:bg-black  ">
           <div class="flex flex-col gap-3 items-center  justify-center text-center text-gray-500 dark:text-gray-400">
             <p>No sponsors yet</p>
             <a
@@ -106,7 +105,7 @@ function App() {
          </div>
               
               {/* {Quote} */}
-              <div className="pt-20">
+              <div className="pt-10 sm:pt-20 m-5 sm:m-0 ">
               <MyDemo><p className="text-center text-xl font-achivo dark:text-zinc-500   italic">
               "Focus on your work, not the outcome"
               </p>
@@ -115,8 +114,8 @@ function App() {
               </div>
 
               {/* Footer */}
-              <hr className=" border-1 border-slate-800 mt-10 md:ml-20 xl:ml-0 lg:ml-16 md:mr-14 lg:mr-0 relative bottom-80 lg:bottom-0 md:bottom-28 w-[350px]  mx-auto md:w-[85%] lg:w-[92%] xl:w-full " />
-              <div className=" text-zinc-500  p-5 relative bottom-80 lg:bottom-0 md:bottom-28">
+              <hr className=" border-1 border-slate-800 mt-10 md:ml-20 xl:ml-0 lg:ml-16 md:mr-14 lg:mr-0 relative  w-[350px]  mx-auto md:w-[85%] lg:w-[92%] xl:w-full " />
+              <div className=" text-zinc-500  p-5 relative ">
                 <p className="md:px-24 lg:px-16 xl:px-0 px-2 font-light text-xs sm:text-sm">
                   Jatin Mehta
                 </p>
