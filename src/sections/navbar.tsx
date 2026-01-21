@@ -1,5 +1,5 @@
 import React from "react";
-import { ProfilePic } from "../main/profile-pic";
+import { ProfilePic } from "../features/ProfilePic";
 import {
   RiGithubFill,
   RiLinkedinFill,

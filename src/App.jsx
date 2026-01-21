@@ -1,9 +1,9 @@
-import { Nav } from "./files/navbar";
-import { Grid } from "./files/projects";
-import { InfiniteMovingCardsDemo } from "./main/moving-stack";
+import { Nav } from "./sections/navbar";
+import { Grid } from "./sections/projects";
+import { InfiniteMovingCardsDemo } from "./features/MovingStack";
 import { cn } from "./lib/utils";
 import { TracingBeam } from "./components/ui/tracing-beam";
-import GithubActivity from "./main/Github-activity";
+import GithubActivity from "./features/GithubActivity";
 import SmoothWrapper from "./components/ui/scroll";
 import { TooltipBubble } from "./components/ui/tooltip";
 import MyDemo from "./components/ui/decorative-box";

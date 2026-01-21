@@ -3,9 +3,9 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ProjectDetails } from "./files/project-details.tsx";
-import { Navbar2 } from "./files/navbars.tsx";
-import { Contact } from "./files/contactMe.tsx";
+import { ProjectDetails } from "./sections/project-details.tsx";
+import { Navbar2 } from "./sections/navbars.tsx";
+import { Contact } from "./sections/contactMe.tsx";
 import { Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 
