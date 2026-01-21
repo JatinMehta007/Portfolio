@@ -140,13 +140,13 @@ export function ProjectDetails() {
   return (
     <div className=" font-hanke text-black dark:text-white">
       <div className="bg-gradient-to-r from-white to-white dark:from-neutral-950 dark:to-neutral-950">
-        <div className=" gap-10 w-full grid grid-cols-2  ">
+        <div className=" sm:gap-10 w-full grid sm:grid-cols-2  ">
           {visibleProjects.map((p, i) => (
-            <div key={i} className= "group dark:bg-black bg-white [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_5px,_transparent_16px)_1] border p-3">
+            <div key={i} className= "group dark:bg-black m-5 sm:m-0 bg-white [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_5px,_transparent_16px)_1] border p-3">
               <div className="dark:bg-neutral-900 bg-neutral-200 border-2 border-double rounded-lg  border-zinc-700  overflow-hidden">
                 <PinContainer
                   title={p.pinTitle}
-                  className="md:w-[400px]  lg:w-[90%] xl:w-[100%] w-[110%] xl:left-0 left-1/4 lg:left-20 relative group "
+                  className="md:w-[400px]  lg:w-[90%] xl:w-[100%] w-[100%] xl:left-0 sm:left-1/4 lg:left-20 relative group "
                   href={p.pinLink}
                 >
                   {/* background image */}
@@ -157,7 +157,7 @@ export function ProjectDetails() {
                   />
 
                   {/* front image */}
-                  <div className="p-10">
+                  <div className="p-5 sm:p-10">
                     <img
                       src={p.img}
                       className="relative dark:border-zinc-600 border rounded-lg  transition  ease-in-out delay-150 group-hover:translate-y-3  duration-100"
