@@ -13,7 +13,7 @@ export const Nav = () => {
       <div className="absolute ">
         <ProfilePic />
       </div>
-      <div className="flex mt-[100px] ml-auto text-black dark:text-white md:mr-12 lg:mr-4">
+      <div className="flex mt-[170px] md:mt-[100px] ml-auto text-black dark:text-white md:mr-12 lg:mr-4">
         <div className="p-3 rounded-xl relative sm:right-10 hover:bg-stone-200 dark:hover:bg-stone-800">
           <a
             href="https://twitter.com/JatinMehta35630"
