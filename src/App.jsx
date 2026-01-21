@@ -29,7 +29,7 @@ function App() {
               // dark grid
               "dark:bg-black dark:[background-image:linear-gradient(to_right,#27272a_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]"
             )}
-            ></div>
+          ></div>
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white dark:bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_1%,black)] "></div>
 
           <div className="bg-gradient-to-r w-full xl:w-[60%] from-white to-white dark:from-neutral-950 dark:to-neutral-950">
@@ -37,10 +37,10 @@ function App() {
 
               {/* {Quote} */}
               <div className="pt-20 lg:pt-20 p-5 lg:p-0 ">
-              <MyDemo><p className="text-center text-xl font-achivo dark:text-zinc-500   italic">
-              " Karmanye Vadhikaraste "
-              </p>
-              </MyDemo>
+                <MyDemo><p className="text-center text-xl font-achivo dark:text-zinc-500   italic">
+                  " Karmanye Vadhikaraste "
+                </p>
+                </MyDemo>
               </div>
 
               {/* {Navbar} */}
@@ -57,29 +57,29 @@ function App() {
               </div>
 
               <div className="flex gap-5 ml-5 mt-5 lg:ml-0">
-              <a
-                    href="mailto:mehtajatin045@gmail.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
-              <button className="flex gap-1 dark:hover:bg-zinc-800 border hover:bg-zinc-200 border-double dark:border-zinc-400 border-black p-2 text-sm">
-                <RiMailFill size={22}></RiMailFill>
-                Send an email
-              </button>
-              </a>
-              <a
-                    href="mailto:mehtajatin045@gmail.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
-              <div className="flex gap-1 dark:hover:bg-zinc-800 hover:bg-zinc-200 border border-double dark:border-zinc-400 border-black p-2 text-sm">
-                Hire me
+                <a
+                  href="mailto:mehtajatin045@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="flex gap-1 dark:hover:bg-zinc-800 border hover:bg-zinc-200 border-double dark:border-zinc-400 border-black p-2 text-sm">
+                    <RiMailFill size={22}></RiMailFill>
+                    Send an email
+                  </button>
+                </a>
+                <a
+                  href="mailto:mehtajatin045@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="flex gap-1 dark:hover:bg-zinc-800 hover:bg-zinc-200 border border-double dark:border-zinc-400 border-black p-2 text-sm">
+                    Hire me
+                  </div>
+                </a>
               </div>
-              </a>              
-              </div>
-            <GithubActivity></GithubActivity>
-           
-           
+              <GithubActivity></GithubActivity>
+
+
               {/* Projects */}
               <div>
                 <Grid />
@@ -89,28 +89,28 @@ function App() {
                 <InfiniteMovingCardsDemo />
               </div>
 
-            {/* {Sponsors} */}
-          <h3 className="text-xl font-medium mt-20 m-5 lg:mt-20 lg:m-0 [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 text-center">Sponsors</h3>
-            <div className="  rounded-xl mt-4 m-5 lg:m-0 lg:mt-4 [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 bg-white dark:bg-black  ">
-          <div className="flex flex-col gap-3 items-center  justify-center text-center text-gray-500 dark:text-gray-400">
-            <p>No sponsors yet</p>
-            <a
-              href="https://github.com/sponsors/JatinMehta007"
-              target="_blank"
-              className="px-3 py-1.5 rounded-md border border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition text-sm"
-              >
-              Be the first sponsor 💜
-            </a>
-          </div>
-         </div>
-              
+              {/* {Sponsors} */}
+              <h3 className="text-xl font-medium mt-20 m-5 lg:mt-20 lg:m-0 [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 text-center">Sponsors</h3>
+              <div className="  rounded-xl mt-4 m-5 lg:m-0 lg:mt-4 [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 bg-white dark:bg-black  ">
+                <div className="flex flex-col gap-3 items-center  justify-center text-center text-gray-500 dark:text-gray-400">
+                  <p>No sponsors yet</p>
+                  <a
+                    href="https://github.com/sponsors/JatinMehta007"
+                    target="_blank"
+                    className="px-3 py-1.5 rounded-md border border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition text-sm"
+                  >
+                    Be the first sponsor 💜
+                  </a>
+                </div>
+              </div>
+
               {/* {Quote} */}
               <div className="pt-10 sm:pt-20 m-5 lg:m-0 ">
-              <MyDemo><p className="text-center text-xl font-achivo dark:text-zinc-500   italic">
-              "Focus on your work, not the outcome"
-              </p>
-              <p className="text-center text-base font-achivo dark:text-zinc-500">— LORD KRISHNA —</p>
-              </MyDemo>
+                <MyDemo><p className="text-center text-xl font-achivo dark:text-zinc-500   italic">
+                  "Focus on your work, not the outcome"
+                </p>
+                  <p className="text-center text-base font-achivo dark:text-zinc-500">— LORD KRISHNA —</p>
+                </MyDemo>
               </div>
 
               {/* Footer */}
@@ -124,7 +124,7 @@ function App() {
                     href="https://twitter.com/JatinMehta35630"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >
+                  >
                     <TooltipBubble label="Twitter">
                       <RiTwitterXLine className=" dark:text-zinc-400 dark:hover:text-zinc-300 w-4 sm:w-5"></RiTwitterXLine>
                     </TooltipBubble>
@@ -133,7 +133,7 @@ function App() {
                     href="https://www.linkedin.com/in/jatin-mehta-a70a0025a/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >
+                  >
                     <TooltipBubble label="Linkedin">
                       <RiLinkedinFill className=" dark:text-zinc-400 dark:hover:text-zinc-300 w-4 sm:w-5"></RiLinkedinFill>
                     </TooltipBubble>
@@ -142,7 +142,7 @@ function App() {
                     href="mailto:mehtajatin045@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >
+                  >
                     <TooltipBubble label="mail">
                       <RiMailFill className=" dark:text-zinc-400 dark:hover:text-zinc-300 w-4 sm:w-5"></RiMailFill>
                     </TooltipBubble>
@@ -151,7 +151,7 @@ function App() {
                     href="https://github.com/JatinMehta007"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >
+                  >
                     <TooltipBubble label="Github">
                       <RiGithubFill className=" dark:text-zinc-400 dark:hover:text-zinc-300 w-4 sm:w-5"></RiGithubFill>
                     </TooltipBubble>
@@ -160,9 +160,9 @@ function App() {
                     href="https://www.notion.so/Jatin-Kumar-Mehta-110ba337e0ad80f78fc4dc0cd559e43d?source=copy_link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >
+                  >
                     <TooltipBubble label="Notion">
-                      <RiNotionFill className= " dark:text-zinc-400 dark:hover:text-zinc-300 w-4 sm:w-5"></RiNotionFill>
+                      <RiNotionFill className=" dark:text-zinc-400 dark:hover:text-zinc-300 w-4 sm:w-5"></RiNotionFill>
                     </TooltipBubble>
                   </a>
                 </div>
@@ -171,7 +171,7 @@ function App() {
           </div>
         </div>
       </SmoothWrapper>
-                    
+
     </>
   );
 }
