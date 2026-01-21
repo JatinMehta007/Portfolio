@@ -40,7 +40,7 @@ export function ProjectDetails() {
     },
     {
       img: "./decplatter.png",
-      img1: "./bg1.jpg",
+      img1: "./bg3.jpg",
       title: "DocPlatter",
       status: "live",
       alt:"Docplatter",
@@ -138,21 +138,21 @@ export function ProjectDetails() {
   const visibleProjects = showAll ? projects : projects.slice(0, 4);
 
   return (
-    <div className=" font-hanke text-black dark:text-white">
+    <div className=" font-hanken text-black dark:text-white">
       <div className="bg-gradient-to-r from-white to-white dark:from-neutral-950 dark:to-neutral-950">
-        <div className=" md:gap-1 lg:gap-10 w-full grid sm:grid-cols-2  ">
+        <div className=" md:gap-1 lg:gap-10 w-full  grid sm:grid-cols-2  ">
           {visibleProjects.map((p, i) => (
-            <div key={i} className= "group dark:bg-black m-5 lg:m-0 bg-white [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_5px,_transparent_16px)_1] border p-3">
-              <div className="dark:bg-neutral-900 bg-neutral-200 border-2 border-double rounded-lg  border-zinc-700  overflow-hidden">
+            <div key={i} className= "group dark:bg-black  m-5 lg:m-0 bg-white [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_5px,_transparent_16px)_1] border p-3">
+              <div className="dark:bg-neutral-900 h-[150px] md:h-auto bg-neutral-200 border-2 border-double rounded-lg  border-zinc-700  overflow-hidden">
                 <PinContainer
                   title={p.pinTitle}
-                  className="w-[100%]  relative group "
+                  className="w-[100%]   relative group "
                   href={p.pinLink}
                 >
                   {/* background image */}
                   <img
                     src={p.img1}
-                    className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                    className="absolute inset-0 w-full h-full object-cover sm:opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     alt=""
                   />
 
