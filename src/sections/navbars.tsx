@@ -15,8 +15,8 @@ export function Navbar2() {
         <img src="https://i.postimg.cc/DwwNdbQD/avatar.jpg" alt="avatar" className="rounded-full h-10 w-10 md:w-12 md:h-12 cursor-pointer" />
         </a>
   
-        <div className="flex font-title gap-3 md:gap-10 dark:text-white text-black ">
-          <a href="/contact">Contact me</a>
+        <div className="flex font-title gap-3 md:gap-10  dark:text-white text-black ">
+          <a href="/contact" className="dark:hover:text-zinc-400 hover:text-zinc-500">Contact me</a>
           <ThemeToggle></ThemeToggle>
         </div>
       </div>

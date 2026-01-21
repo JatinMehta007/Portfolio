@@ -26,9 +26,9 @@ export const ThemeToggle = () => {
       className=" rounded-xl cursor-pointer flex items-center justify-center "
     >
       {theme === "light" ? (
-        <IconMoon size={22} className="text-zinc-700" />
+        <IconMoon size={22} className="text-zinc-700 hover:text-zinc-400" />
       ) : (
-        <IconSun size={22} className="text-zinc-100" />
+        <IconSun size={22} className="text-zinc-100 dark:hover:text-zinc-400" />
       )}
     </div>
   );
