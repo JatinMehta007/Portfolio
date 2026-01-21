@@ -3,7 +3,6 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ProjectDetails } from "./sections/project-details.tsx";
 import { Navbar2 } from "./sections/navbars.tsx";
 import { Contact } from "./sections/contactMe.tsx";
 import { Theme } from "@radix-ui/themes";
@@ -18,7 +17,6 @@ createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/about" element={<ProjectDetails />} />
         <Route path="/contact" element={<Contact></Contact>}></Route>
       </Routes>
     </BrowserRouter>
