@@ -7,7 +7,7 @@ export function SVGMaskEffectDemo() {
     <div > 
 
     <div
-      className="relative flex   overflow-hidden mt-5 sm:mt-0 ">
+      className="relative flex   overflow-hidden mt-0  ">
       
           <div
             className=" dark:text-zinc-300 text-black  text-lg  ">
