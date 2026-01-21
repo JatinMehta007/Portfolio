@@ -4,8 +4,8 @@ export function Navbar2() {
     return (
       <div className="
         fixed border border-zinc-100 dark:border-none
-        z-50 lg:left-1/2 lg:-translate-x-1/2
-        h-16 px-6 lg:w-[61%]
+        z-50 xl:left-1/2 xl:-translate-x-1/2
+        h-16 px-6 xl:w-[61%]
          w-full
         flex items-center justify-between
          dark:bg-black/20
