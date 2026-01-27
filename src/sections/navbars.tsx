@@ -16,7 +16,7 @@ export function Navbar2() {
         </a>
   
         <div className="flex font-title gap-3 md:gap-10  dark:text-white text-black ">
-          <a href="/contact" className="dark:hover:text-zinc-400 hover:text-zinc-500">Contact me</a>
+          <a href="#" className="dark:hover:text-zinc-400 hover:text-zinc-500">Contact me</a>
           <ThemeToggle></ThemeToggle>
         </div>
       </div>
