@@ -44,7 +44,7 @@ export const Nav = () => {
 
         <div className="p-3 md:right-2 lg:right-0 rounded-xl relative hover:bg-stone-200 dark:hover:bg-stone-800">
           <a
-            href="https://bramble-infinity-c93.notion.site/Jatin-Kumar-Mehta-110ba337e0ad80f78fc4dc0cd559e43d"
+            href="https://bramble-infinity-c93.notion.site/Jatin-mehta-2f6ba337e0ad8031b8b1e5edb021f9de"
             target="_blank"
             rel="noopener noreferrer"
           >
