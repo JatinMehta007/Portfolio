@@ -1,6 +1,7 @@
 import { ThemeToggle } from "../components/ui/theme";
 
 export function Navbar2() {
+  
     return (
       <div className="
         fixed border border-zinc-100 dark:border-none
@@ -16,7 +17,7 @@ export function Navbar2() {
         </a>
   
         <div className="flex font-title gap-3 md:gap-10  dark:text-white text-black ">
-          <a href="#" className="dark:hover:text-zinc-400 hover:text-zinc-500">Contact me</a>
+          <a  href="/contact" className="dark:hover:text-zinc-400 hover:text-zinc-500">Contact me</a>
           <ThemeToggle></ThemeToggle>
         </div>
       </div>
