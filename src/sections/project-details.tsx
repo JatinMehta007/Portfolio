@@ -3,6 +3,7 @@ import { IconWorld } from "@tabler/icons-react";
 import reactLogo from "../images/stack1.png";
 import tailwind from "../images/stack2.png";
 import accertinity from "../images/stack18.png";
+import nextjs from "../images/stack5.png"
 import nodejs from "../images/stack3.png";
 import express from "../images/stack4.png";
 import prisma from "../images/stack24.png";
@@ -61,6 +62,18 @@ export function ProjectDetails() {
       github_Link: "https://github.com/JatinMehta007/Victor",
       pinLink: "https://victor-jatinmehta.vercel.app/",
       stack: [reactLogo, tailwind, accertinity, typescript, prisma],
+    },
+    {
+      img: "./lilac.png",
+      img1: "./bg2.jpg",
+      title: "Lilac Template — UI Clone Project",
+      status: "live",
+      alt:"Lilac Template — UI Clone Project",
+      pinTitle: "Lilac Template.com",
+      github_Link: "https://github.com/JatinMehta007/My-Grow-Therapy",
+      pinLink : "https://my-grow-therapy.vercel.app/",
+      desc: "A fully responsive therapist portfolio website cloned from the Lilac Squarespace template and redesigned with a new theme, custom copywriting.....",
+      stack: [nextjs, reactLogo,tailwind],
     },
     {
       img: "./freelance.png",
