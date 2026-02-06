@@ -19,7 +19,7 @@ export default function GithubActivity() {
   }, []);
 
   return (
-    <div className="flex justify-center p-6 grayscale ">
+    <div className="flex justify-center p-6 grayscale-[20%] ">
       <GitHubCalendar
         username="JatinMehta007"
         colorScheme={scheme}
