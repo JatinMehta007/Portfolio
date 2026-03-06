@@ -47,8 +47,10 @@ function App() {
               <div>
                 <Nav />
               </div>
-
               <div className="md:text-base  font-title sm:text-sm m-5 lg:m-0   lg:mt-12 md:mt-8 text-gray-900 dark:text-gray-300 relative   xl:ml-0 mt-0 text-xs dark:bg-black [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 leading-relaxed text-justify">
+              Hire Me for Frontend Development, Full Stack Development, and Software Engineering Roles
+              </div>
+              <div className="md:text-base  font-title sm:text-sm m-5 lg:m-0   lg:mt-6 md:mt-8 text-gray-900 dark:text-gray-300 relative   xl:ml-0 mt-0 text-xs dark:bg-black [border-image:repeating-linear-gradient(45deg,_#3f3f46_0,_#3f3f46_8px,_transparent_8px,_transparent_16px)_1] border p-2 leading-relaxed text-justify">
                 A passionate Full-Stack Developer and UI Designer. I specialize in creating responsive, user-friendly web applications with a
                 strong focus on UI/UX design. Eager to apply my skills in
                 real-world scenarios, I’m actively seeking internship
